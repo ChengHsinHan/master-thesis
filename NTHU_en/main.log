@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6800 64-bit) (preloaded format=xelatex 2018.12.4)  7 DEC 2018 15:10
+This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6800 64-bit) (preloaded format=xelatex 2018.12.4)  10 DEC 2018 14:33
 entering extended mode
 **./main.tex
 (main.tex
@@ -2819,20 +2819,23 @@ File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 
 ]
 Chapter 2.
-) (chapter_result.tex
-File: ./figures/nthu-logo.pdf Graphic file (type pdf)
-<use ./figures/nthu-logo.pdf>
- [3]
-File: ./figures/nthu-logo.pdf Graphic file (type pdf)
-<use ./figures/nthu-logo.pdf>
- [4
 
-]
+Underfull \vbox (badness 7433) has occurred while \output is active []
+
+File: ./figures/nthu-logo.pdf Graphic file (type pdf)
+<use ./figures/nthu-logo.pdf>
+ [3])
+(chapter_result.tex
+File: ./figures/nthu-logo.pdf Graphic file (type pdf)
+<use ./figures/nthu-logo.pdf>
+ [4]
 Chapter 3.
 ) (chapter_conclusion.tex
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
- [5]
+ [5
+
+]
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
  [6
@@ -3181,8 +3184,8 @@ chapter_introduction.tex
 chapter_method.tex
 ./figures/nthu-logo.pdf
 ./figures/nthu-logo.pdf
-chapter_result.tex
 ./figures/nthu-logo.pdf
+chapter_result.tex
 ./figures/nthu-logo.pdf
 chapter_conclusion.tex
 ./figures/nthu-logo.pdf
@@ -3223,7 +3226,7 @@ lstlang2.sty    2018/09/02 1.7 listings language file
 
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 87.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 89AA58370B88705B89FEB4CDE5B3799E.
+(rerunfilecheck)             Checksum: 2CC0728409F171AB0C608C236E21C8F0.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.72pt have occurred.
@@ -3241,10 +3244,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 50424 strings out of 427798
- 999528 string characters out of 3147261
- 1469994 words of memory out of 3000000
- 53695 multiletter control sequences out of 15000+200000
+ 50425 strings out of 427798
+ 999541 string characters out of 3147261
+ 1470997 words of memory out of 3000000
+ 53696 multiletter control sequences out of 15000+200000
  539979 words of font info for 106 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
  68i,18n,98p,1151b,3588s stack positions out of 5000i,500n,10000p,200000b,50000s
