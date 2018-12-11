@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6800 64-bit) (preloaded format=xelatex 2018.12.4)  10 DEC 2018 14:33
+This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6800 64-bit) (preloaded format=xelatex 2018.12.4)  11 DEC 2018 18:14
 entering extended mode
 **./main.tex
 (main.tex
@@ -2824,25 +2824,21 @@ Underfull \vbox (badness 7433) has occurred while \output is active []
 
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
- [3])
-(chapter_result.tex
+ [3]
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
- [4]
-Chapter 3.
-) (chapter_conclusion.tex
-File: ./figures/nthu-logo.pdf Graphic file (type pdf)
-<use ./figures/nthu-logo.pdf>
- [5
 
-]
+[4]) (chapter_result.tex
+File: ./figures/nthu-logo.pdf Graphic file (type pdf)
+<use ./figures/nthu-logo.pdf>
+ [5]
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
  [6
 
 ]
-Chapter 4.
-) (chapter_template_demo.tex
+Chapter 3.
+) (chapter_conclusion.tex
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
  [7]
@@ -2851,22 +2847,32 @@ File: ./figures/nthu-logo.pdf Graphic file (type pdf)
  [8
 
 ]
-Chapter 5.
+Chapter 4.
+) (chapter_template_demo.tex
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
-[9]
+ [9]
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
  [10
 
 ]
-Chapter 6.
+Chapter 5.
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
 [11]
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
  [12
+
+]
+Chapter 6.
+File: ./figures/nthu-logo.pdf Graphic file (type pdf)
+<use ./figures/nthu-logo.pdf>
+[13]
+File: ./figures/nthu-logo.pdf Graphic file (type pdf)
+<use ./figures/nthu-logo.pdf>
+ [14
 
 ]
 Chapter 7.
@@ -2880,20 +2886,20 @@ File: ./figures/fig3.png Graphic file (type bmp)
 <./figures/fig3.png>
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
-[13]
+[15]
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
- [14]
+ [16]
 Chapter 8.
 )
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
- [15
+ [17
 
 ]
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
- [16
+ [18
 
 ] (bibliography.tex
 
@@ -2904,22 +2910,22 @@ Appendix A.
 ) (appendix_solution.tex
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
- [17
+ [19
 
 ]
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
- [18
+ [20
 
 ]
 Appendix B.
 ) (appendix_codes.tex
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
- [19]
+ [21]
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
- [20
+ [22
 
 ]
 Appendix C.
@@ -2968,7 +2974,7 @@ Missing character: There is no ​ in font [lmroman10-regular]:mapping=tex-text;
  (codes/hello_world_idl.pro))
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
- [21]
+ [23]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 87.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 87.
  (main.aux)
@@ -3185,7 +3191,9 @@ chapter_method.tex
 ./figures/nthu-logo.pdf
 ./figures/nthu-logo.pdf
 ./figures/nthu-logo.pdf
+./figures/nthu-logo.pdf
 chapter_result.tex
+./figures/nthu-logo.pdf
 ./figures/nthu-logo.pdf
 chapter_conclusion.tex
 ./figures/nthu-logo.pdf
@@ -3226,7 +3234,7 @@ lstlang2.sty    2018/09/02 1.7 listings language file
 
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 87.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 2CC0728409F171AB0C608C236E21C8F0.
+(rerunfilecheck)             Checksum: 9E80B881B93BEA3B2706875DE79CFC26.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.72pt have occurred.
@@ -3246,10 +3254,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Here is how much of TeX's memory you used:
  50425 strings out of 427798
  999541 string characters out of 3147261
- 1470997 words of memory out of 3000000
+ 1470045 words of memory out of 3000000
  53696 multiletter control sequences out of 15000+200000
  539979 words of font info for 106 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
  68i,18n,98p,1151b,3588s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on main.pdf (39 pages).
+Output written on main.pdf (41 pages).
