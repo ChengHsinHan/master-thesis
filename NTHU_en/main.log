@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6800 64-bit) (preloaded format=xelatex 2018.12.4)  11 DEC 2018 18:14
+This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6800 64-bit) (preloaded format=xelatex 2018.12.4)  12 DEC 2018 16:23
 entering extended mode
 **./main.tex
 (main.tex
@@ -2819,29 +2819,29 @@ File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 
 ]
 Chapter 2.
-
-Underfull \vbox (badness 7433) has occurred while \output is active []
-
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
- [3]
+[3]
+File: ./figures/ATLAS.png Graphic file (type bmp)
+<./figures/ATLAS.png>
+File: ./figures/Side_view.png Graphic file (type bmp)
+<./figures/Side_view.png>
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
-
-[4]) (chapter_result.tex
+ [4]
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
- [5]
+ [5]) (chapter_result.tex
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
- [6
-
-]
+ [6]
 Chapter 3.
 ) (chapter_conclusion.tex
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
- [7]
+ [7
+
+]
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
  [8
@@ -3191,9 +3191,11 @@ chapter_method.tex
 ./figures/nthu-logo.pdf
 ./figures/nthu-logo.pdf
 ./figures/nthu-logo.pdf
+./figures/ATLAS.png
+./figures/Side_view.png
+./figures/nthu-logo.pdf
 ./figures/nthu-logo.pdf
 chapter_result.tex
-./figures/nthu-logo.pdf
 ./figures/nthu-logo.pdf
 chapter_conclusion.tex
 ./figures/nthu-logo.pdf
@@ -3252,10 +3254,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 50425 strings out of 427798
- 999541 string characters out of 3147261
- 1470045 words of memory out of 3000000
- 53696 multiletter control sequences out of 15000+200000
+ 50439 strings out of 427798
+ 999807 string characters out of 3147261
+ 1470331 words of memory out of 3000000
+ 53708 multiletter control sequences out of 15000+200000
  539979 words of font info for 106 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
  68i,18n,98p,1151b,3588s stack positions out of 5000i,500n,10000p,200000b,50000s
