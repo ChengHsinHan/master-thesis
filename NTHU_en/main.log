@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6800 64-bit) (preloaded format=xelatex 2018.12.4)  12 DEC 2018 16:23
+This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6800 64-bit) (preloaded format=xelatex 2018.12.4)  14 DEC 2018 17:47
 entering extended mode
 **./main.tex
 (main.tex
@@ -2826,12 +2826,16 @@ File: ./figures/ATLAS.png Graphic file (type bmp)
 <./figures/ATLAS.png>
 File: ./figures/Side_view.png Graphic file (type bmp)
 <./figures/Side_view.png>
+
+Underfull \vbox (badness 7814) has occurred while \output is active []
+
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
  [4]
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
- [5]) (chapter_result.tex
+
+[5]) (chapter_result.tex
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
  [6]
@@ -3236,7 +3240,7 @@ lstlang2.sty    2018/09/02 1.7 listings language file
 
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 87.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 9E80B881B93BEA3B2706875DE79CFC26.
+(rerunfilecheck)             Checksum: 65071BDBEC37E8B75CBDBF447E02BB2C.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.72pt have occurred.
@@ -3256,7 +3260,7 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Here is how much of TeX's memory you used:
  50439 strings out of 427798
  999807 string characters out of 3147261
- 1470331 words of memory out of 3000000
+ 1471331 words of memory out of 3000000
  53708 multiletter control sequences out of 15000+200000
  539979 words of font info for 106 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
