@@ -5,11 +5,32 @@
 	Signals recorded in the ATLAS detector are categorized or reconstructed as pysical objects, which could be further used in the analyses. The reconstruction and definition of objects used in this study are listed in the following.
 	
 \section{Leptons}
+	Leptons are used to categorized the regions selected in this analysis, which would be covered in the next chapter. Requirements of each flavor are explained in the following and summarized in table.\ref{tab:lepton selection}.
+	
+	\begin{table}[h]
+	%\centering
+	\caption{The summarization of lepton selection and reconstruction. The rightmost column are the requirements for the reconstructed small-R jet that decays from a $\tau$-lepton candidate.}
+	\label{tab:lepton selection}		\begin{tabular}{|c|c|c|c|c|c|}
+		\hline
+		flavor & \multicolumn{2}{c|}{e} & \multicolumn{2}{c|}{$\mu$} & $\tau$ \\ \hline
+		categorization & baseline & signal & baseline & signal & - \\ \hline
+		$p_T$ (GeV) & > 7 & > 27 & > 7 & > 25 & > 20 \\ \hline
+		$\lvert \eta \rvert$ & \multicolumn{2}{c|}{(0, 2.47)} & (0, 2.7) & (0, 2.5) & (0, 1.37) $\cup$ (1.52, 2.5) \\ \hline
+		ID & \multicolumn{5}{c|}{\textit{Loose}} \\ \hline
+		transverse impact parameter & \multicolumn{2}{c|}{$d_0 / \sigma(d_0) < 5$} & \multicolumn{2}{c|}{$d_0 / \sigma(d_0) < 3$} & $d_0 < 1$ mm \\ \hline
+		$\lvert z_0 \sin(\theta) \rvert$ (mm) & \multicolumn{4}{c|}{< 0.5} & < 1.5 \\ \hline
+		Additional & \multicolumn{4}{c|}{-} & \shortstack{one to four track-jets\\$\Delta \phi(\tau, \slashed{E}_T) < \frac{\pi}{8}$}\\ \hline
+		\end{tabular}
+	\end{table}
+
 	\subsection{Electrons}
-		Electron candidates are reconstructed from the energy deposits in EM calorimeter that match a track recorded in the inner detector. In addition, there is a likelihood-based (LH) algorithm, which further makes use of multivariable analysis (MVA), applied for the electron identification (ID). Three levels of ID operating point, \textit{loose}, \textit{medium} and \textit{tight}, are povided for electrons. \textit{Loose} ID and criteria is used in this study. Moreover, electrons are divided into two groups, the baseline electrons, whose transverse momentum ($p_T$) exceeds $7$ GeV, and the signal electrons, which requires a tighter threshold of $p_T > 27$ GeV. Finally, all candidates within $\lvert \eta \rvert < 2.47$ are considered.
+		Electron candidates are reconstructed from the energy deposits in EM calorimeter that match a track recorded in the inner detector. In addition, there is a likelihood-based (LH) algorithm, which further makes use of multivariable analysis (MVA), applied for the electron ID. Three levels of ID operating point, \textit{loose}, \textit{medium} and \textit{tight}, are povided for electrons; among them, \textit{loose} ID is used in this study. Moreover, electrons are divided into two groups, the baseline electrons, whose transverse momentum ($p_T$) exceeds $7$ GeV, and the signal electrons, which requires a tighter threshold of $p_T > 27$ GeV. All candidates within $\lvert \eta \rvert < 2.47$ are considered. Finally, requirements of the impact parameter are considered, both in the transverse and logitudinal directions. In the former, the relative resolution, which is the fraction of the transverse impact parameter $d_0$ and its resolution $\sigma(d_0)$, has an upper bound of 5; in the latter, the absoulte value $\lvert z_0 \sin(\theta) \rvert < 0.5$ mm is set.
 		
 	\subsection{Muons}
+		Muon candidates, also divided into baseline and signal muons, are reconstructed with high dependence of inner detector and the muon spectrometer. Signal muons, whose $p_T$ exceed 27 Gev, are required to leave tracks in the inner detector, and thus shall be found in $\lvert \eta \rvert < 2.5$. For baseline muons, which have a looser $p_T$ threshold of 7 GeV, leaving signals in the inner detector is not demanded and thus are within $\lvert \eta \rvert < 2.7$, which is the range of the muon spectrometer. On top of that, the impact parameter must be consistent with the reconstructed location of the collision, or the primary vertex. $d_0 / \sigma(d_0) < 3$ and $\lvert z_0 \sin(\theta) \rvert < 0.5$ mm are set. Finally, a \textit{loose} ID for the muons is used in this analysis.
 		
+	\subsection{Taus}
+		$\tau$-leptons, whose decay length is few $\mu$m, barely reach the ATLAS detector and thus are mainly reconstructed from their decay products. Due to the fact that most of the $\tau$-leptons decay into hadrons, the $\tau$-lepton candidates are reconstructed from jets. The jets are required to within $\lvert \eta \rvert < 2.5$, excluding $1.37 < \lvert \eta \rvert < 1.52$, the region between the barrel and the forward region (or the crack region). Furthermore, the small-R jet is required to contain one to four track-jets and within a range of $\Delta \phi < \frac{\pi}{8}$ with the missing transverse energy (MET, $E_T^{miss}$ or $\slashed{E}_T$) in order to be considered as a decay producet of a $\tau$-lepton candidate.
 
 \section{Jets}
 	
