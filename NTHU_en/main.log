@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6840 64-bit) (preloaded format=xelatex 2018.12.17)  17 DEC 2018 18:13
+This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6840 64-bit) (preloaded format=xelatex 2018.12.17)  18 DEC 2018 11:26
 entering extended mode
 **./main.tex
 (main.tex
@@ -2123,18 +2123,14 @@ File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
  [6]
 Chapter 3.
-
-Underfull \vbox (badness 6348) has occurred while \output is active []
-
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
- [7
+[7
 
 ]
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
-
-[8]) (chapter_conclusion.tex
+ [8]) (chapter_conclusion.tex
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
  [9]
@@ -2533,7 +2529,7 @@ lstlang2.sty    2018/09/02 1.7 listings language file
 
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 90.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: CA37C299EB10B96B55419DD2A201B19D.
+(rerunfilecheck)             Checksum: C8C99452027A4FA9A6E39E1290502DDE.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.72pt have occurred.
@@ -2551,12 +2547,12 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 50519 strings out of 427796
- 1000115 string characters out of 3147988
- 1472361 words of memory out of 3000000
- 53786 multiletter control sequences out of 15000+200000
- 539987 words of font info for 107 fonts, out of 3000000 for 9000
+ 50517 strings out of 427796
+ 1000062 string characters out of 3147988
+ 1473361 words of memory out of 3000000
+ 53785 multiletter control sequences out of 15000+200000
+ 539979 words of font info for 106 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
- 68i,19n,98p,1165b,3588s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 68i,19n,98p,1245b,3588s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 Output written on main.pdf (43 pages).
