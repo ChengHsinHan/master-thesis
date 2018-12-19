@@ -5,14 +5,34 @@
 	Signals recorded in the ATLAS detector are categorized or reconstructed as pysical objects, which could be further used in the analyses. Besides the head-to-head, or hard-scattered, events which have high transverse momentum, or $p_T$, there are also additional collisions with lower $p_T$. These are referred to as the pile-up events, which one often wants to exclude in the analyes. The reconstruction and definition of objects used in this study are listed in the following.
 	
 \section{Jets}
-	Jets are the reconstruction of collimated bunches of hadrons. In ATLAS experiment, the anti-$k_T$ algorithm is usually used to recombine hadrons into cone-sized shapes. In short, the anti-$k_T$ algorithm makes use of $p_T$ of each given entities and reconstructs jets whose R is the given radius parameter and which center on hard-scattered particles. How the jets is reconstructed and defined in this study is explained as follows.
+	Jets are the reconstruction of collimated bunches of hadrons. In ATLAS experiment, the anti-$k_T$ algorithm is usually used to recombine hadrons into cone-sized shapes. In short, the anti-$k_T$ algorithm makes use of $p_T$ of each given entities and reconstructs jets whose R is the given radius parameter and which center on hard-scattered particles. How the jets is reconstructed and defined in this study is tabulated in table.\ref{tab:jet selection} and explained as follows.
+	
+	\begin{table}[h]
+		\centering
+		\caption{The summarization of the jet selection and reconstruction.}
+		\label{tab:jet selection}
+		\begin{tabular}{|c|c|c|c|c|}
+			\hline
+			type & \shortstack{(\textit{central})\\small-R jets} & \shortstack{(\textit{forward})\\small-R jets} & large-R jets & VR track jets \\ \hline
+			$p_T$ (GeV) & > 20 & > 30 & > 200 & > 0.5 \\ \hline
+			$\lvert \eta \rvert$ & (0, 2.5) & (2.5, 4.5) & (0, 2.0) & (0, 2.5) \\ \hline
+			$R$ & \multicolumn{2}{c|}{0.4} & 1.0 & \shortstack{$p_T / \rho \in$ (0.02, 0.4)\\ with $\rho = 30$ GeV} \\ \hline
+			additional & \shortstack{if $\lvert \eta \rvert < 2.4$ then\\$p_T < 60$ GeV} & \multicolumn{3}{c|}{-}\\ \hline
+		\end{tabular}
+	\end{table}
 	
 	\subsection{Small-radius Jets}
 		Using the anti-$k_T$ algorithm with a raidus parameter of 0.4, small-radius, or small-R, jets can be reconstructed from the energy deposits in the calorimeter. Small-R jets are further categorzied into two types, the central jets and the forward jets. Those jets whose $\lvert \eta \rvert < 2.5$ are required to have $p_T > 20$ GeV in order to be identified as the former; other jets with $2.5 < \lvert \eta \rvert < 4.5$ are referred to as the latter and a threshold of $p_T > 30$ GeV is required. For jets in $\lvert \eta \rvert < 2.4$, an additional threshold of $p_T < 60$ GeV is required, and, to further suppress jets from the pile-up interactions, they are required to be originated from the reconstructed location of the collision, or the primary vertex.
 	
 	\subsection{Large-radius Jets}
+		The large-radius, or large-R, jets are reconstructed via the anti-$k_T$ algorithm with a radius parameter of 1.0. The reconstruction highly depends on the calorimeter and the tracking system. Certain calibration method is appiled for the energy deposits in the calorimeter. The calibrated jets have a $p_T$ threshold of 200 GeV and are required to be within the range of $\lvert \eta \rvert < 2.0$.
 	
 	\subsection{Variable-radius Jets}
+		The variable-radius (VR) track jets are also reconstructed using the anti-$k_T$ algorithm. Those jets whose $p_T$ does not exceed 0.5 GeV or out of the range of $\lvert \eta \rvert < 2.5$ are not considered. To suppress the pile-up jets, a creiteria on the longitudinal impact parameter, $\lvert z_0 \sin(\theta) \rvert < 3$ mm, is required, where $z_0$ is the point closet to the vertex along the logitudinal axis and $\theta$ is the polar angle of the track. The main feature of the VR track jets is that the radius parameter depends on the value of $p_T$ rather than a constant value:
+		\begin{equation}
+			R \rightarrow R_{\mathrm{eff}} \approx \frac{p_T}{\rho},
+		\end{equation}
+		in which $\rho$ is set at 30 GeV, which is the optimal value ragarding the efficiency for b-tagging. The upper limit and lower limit, $R_{\mathrm{max}}$ and $R_{\mathrm{min}}$ are set at 0.4 and 0.02 in this regard.
 	
 \section{Leptons}
 	Leptons are used to categorized the regions selected in this analysis, which would be covered in the next chapter. Requirements of each flavor are explained in the following and summarized in table.\ref{tab:lepton selection}.
@@ -34,7 +54,7 @@
 	\end{table}
 
 	\subsection{Electrons}
-		Electron candidates are reconstructed from the energy deposits in EM calorimeter that match a track recorded in the inner detector. In addition, there is a LLH-based algorithm, which further makes use of multivariable analysis (MVA), applied for the electron ID. Three levels of ID operating point, loose, medium and tight, are povided; among them, loose ID is used in this study for the electrons. Moreover, electrons are divided into two groups, the baseline electrons, whose $p_T$ exceed 7 GeV, and the signal electrons, which requires a tighter threshold of $p_T > 27$ GeV. All candidates within $\lvert \eta \rvert < 2.47$ are considered. Finally, requirements of the impact parameter are considered, both in the transverse and logitudinal directions. For the former, the relative resolution, which is the fraction of the transverse impact parameter $d_0$ and its resolution $\sigma(d_0)$, has an upper bound of 5. For the latter, the value $\lvert z_0 \sin(\theta) \rvert < 0.5$ mm is set, where $z_0$ is the point closet to the vertex along the logitudinal axis and $\theta$ is the polar angle of the track.
+		Electron candidates are reconstructed from the energy deposits in EM calorimeter that match a track recorded in the inner detector. In addition, there is a LLH-based algorithm, which further makes use of multivariable analysis (MVA), applied for the electron ID. Three levels of ID operating point, loose, medium and tight, are povided; among them, loose ID is used in this study for the electrons. Moreover, electrons are divided into two groups, the baseline electrons, whose $p_T$ exceed 7 GeV, and the signal electrons, which requires a tighter threshold of $p_T > 27$ GeV. All candidates within $\lvert \eta \rvert < 2.47$ are considered. Finally, requirements of the impact parameter are considered, both in the transverse and logitudinal directions. For the former, the relative resolution, which is the fraction of the transverse impact parameter $d_0$ and its resolution $\sigma(d_0)$, has an upper bound of 5. For the latter, the value $\lvert z_0 \sin(\theta) \rvert < 0.5$ mm is set.
 		
 	\subsection{Muons}
 		Muon candidates, also divided into baseline and signal muons, are reconstructed with high dependence of inner detector and the muon spectrometer. Signal muons, whose $p_T$ exceed 27 Gev, are more likely to leave tracks in the inner detector, and thus shall be found in $\lvert \eta \rvert < 2.5$. For baseline muons, which have a looser $p_T$ threshold of 7 GeV, leaving signals in the inner detector is not required and thus are within $\lvert \eta \rvert < 2.7$, which is the range of the muon spectrometer. On top of that, the impact parameter must be consistent with the the primary vertex. $d_0 / \sigma(d_0) < 3$ and $\lvert z_0 \sin(\theta) \rvert < 0.5$ mm are set. Finally, a loose ID is used for the zero-lepton and two-muon channel whilst the one-muon channel makes use of a medium ID for the muons in this analysis. These channels would be covered in the upcoming chapter.

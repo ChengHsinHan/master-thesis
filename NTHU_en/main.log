@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6840 64-bit) (preloaded format=xelatex 2018.12.17)  19 DEC 2018 12:24
+This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6840 64-bit) (preloaded format=xelatex 2018.12.17)  19 DEC 2018 16:20
 entering extended mode
 **./main.tex
 (main.tex
@@ -2130,16 +2130,16 @@ File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 ]
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
- [8]) (chapter_conclusion.tex
-Underfull \vbox (badness 1910) has occurred while \output is active []
+ [8]
+Underfull \vbox (badness 6428) has occurred while \output is active []
 
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
- [9]
+ [9])
+(chapter_conclusion.tex
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
-
-[10]
+ [10]
 Chapter 4.
 ) (chapter_template_demo.tex
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
@@ -2493,8 +2493,8 @@ chapter_result.tex
 ./figures/nthu-logo.pdf
 ./figures/nthu-logo.pdf
 ./figures/nthu-logo.pdf
-chapter_conclusion.tex
 ./figures/nthu-logo.pdf
+chapter_conclusion.tex
 ./figures/nthu-logo.pdf
 chapter_template_demo.tex
 ./figures/nthu-logo.pdf
@@ -2550,11 +2550,11 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 50518 strings out of 427796
- 1000075 string characters out of 3147988
- 1472364 words of memory out of 3000000
- 53786 multiletter control sequences out of 15000+200000
- 539979 words of font info for 106 fonts, out of 3000000 for 9000
+ 50522 strings out of 427796
+ 1000171 string characters out of 3147988
+ 1473486 words of memory out of 3000000
+ 53789 multiletter control sequences out of 15000+200000
+ 539987 words of font info for 107 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
  68i,19n,98p,1229b,3588s stack positions out of 5000i,500n,10000p,200000b,50000s
 
