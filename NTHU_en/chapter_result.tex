@@ -16,7 +16,7 @@
 			type & \shortstack{(\textit{central})\\small-R jets} & \shortstack{(\textit{forward})\\small-R jets} & large-R jets & VR track jets \\ \hline
 			$p_T$ (GeV) & > 20 & > 30 & > 200 & > 0.5 \\ \hline
 			$\lvert \eta \rvert$ & (0, 2.5) & (2.5, 4.5) & (0, 2.0) & (0, 2.5) \\ \hline
-			$R$ & \multicolumn{2}{c|}{0.4} & 1.0 & \shortstack{$p_T / \rho \in$ (0.02, 0.4)\\ with $\rho = 30$ GeV} \\ \hline
+			$R$ & \multicolumn{2}{c|}{0.4} & 1.0 & \shortstack{$\rho / p_T \in$ (0.02, 0.4)\\ with $\rho = 30$ GeV} \\ \hline
 			additional & \shortstack{if $\lvert \eta \rvert < 2.4$ then\\$p_T < 60$ GeV} & \multicolumn{2}{c|}{-} & $\lvert z_0 \sin(\theta) \rvert < 3$ mm \\ \hline
 		\end{tabular}
 	\end{table}
@@ -30,7 +30,7 @@
 	\subsection{Variable-radius Jets}
 		The variable-radius (VR) track jets are also reconstructed using the anti-$k_T$ algorithm. Those jets whose $p_T$ does not exceed 0.5 GeV or out of the range of $\lvert \eta \rvert < 2.5$ are not considered. To suppress the pile-up jets, a creiteria on the longitudinal impact parameter, $\lvert z_0 \sin(\theta) \rvert < 3$ mm, is required, where $z_0$ is the point closet to the vertex along the logitudinal axis and $\theta$ is the polar angle of the track. The main feature of the VR track jets is that the radius parameter depends on the value of $p_T$ rather than a constant value:
 		\begin{equation}
-			R \rightarrow R_{\mathrm{eff}} \approx \frac{p_T}{\rho},
+			R \rightarrow R_{\mathrm{eff}} \approx \frac{\rho}{p_T},
 		\end{equation}
 		in which $\rho$ is set at 30 GeV, which is the optimal value ragarding the efficiency for b-tagging. The upper limit and lower limit, $R_{\mathrm{max}}$ and $R_{\mathrm{min}}$ are set at 0.4 and 0.02 in this regard.
 	
@@ -65,7 +65,17 @@
 \section{Missing Transverse Momentum}
 	The missing transverse momentum is the imbalance in $p_T$ of the reconstructed objects. Thus, it can be reconstructed as the negative vector transverse momentum sum. This includes the hard-scattered objects and the soft term. The momentum of hard-scattered reconstructed particles construct the former. As for the soft term, tracks that are not associated to any reconstructed hard objects are considered. The vetoed leptons, which are the leptons that needs to removed from the analysis in some scenario and would be covered in the next chapter, also count as the soft term. Jets that failed the selection of small-R jets also contributes the soft term, with the $p_T$ threshold on the forward jet being modified to 20 GeV. The value of the missing transverse momentum is denoted as $E_T^{\mathrm{miss}}$ (or $\slashed{E}_T$).
 	
-	An estimation variable $E_T^{\mathrm{miss}}$ significance, S, is used to check the genuinity in whether the $E_T^{\mathrm{miss}}$ comes from undectable particles instead of mismeasurements or any inefficiencies.
+	An estimation variable $E_T^{\mathrm{miss}}$ significance, S, is used to check the genuinity in whether the $E_T^{\mathrm{miss}}$ comes from undectable particles instead of mismeasurements or any inefficiencies. There are two types of $E_T^{\mathrm{miss}}$ significance, the event-based one and the object-based one. The former one is the ratio of the $E_T^{\mathrm{miss}}$ and the square root of the transverse momentum of hard-scattered particles, $H_T$, i.e.,
+	\begin{equation}
+		S_{\mathrm{event}} = \frac{E_T^{\mathrm{miss}}}{\sqrt{H_T}},
+	\end{equation}
+	where
+	\begin{equation}
+		H_T = \Sigma p_T^{\mu} + \Sigma p_T^e + \Sigma p_T^{\gamma} + \Sigma p_T^{\tau} + p_T^{\mathrm{jets}}.
+	\end{equation}
+	If the soft term contributes little in the transverse momentum, the value of $H_T$ would be approximately that of $E_T^{\mathrm{miss}}$, and thus the value of $E_T^{\mathrm{miss}}$ significance tends to be small. It would be used in the background estimation mainly and would be introduced in the next chapter.
+	
+	The other significance value, the object-based one, is a log-likelihood ratio value. It is used to test the hypothesis that the total momentum of the invisible particle is zero against the hypothesis that it is not. In short, if the value of the object-based significance, $S_{\mathrm{object}}$ is always positive or zero, is close to zero, then it implies high possibilities that $E_T^{\mathrm{miss}}$ does not come from the invisible particles; if the value is large, then it implies a possibility of existing invisible particles.
 	
 \section{Overlap Removal}
 	Object ambiguities happen when objects match multiple reconstruction criteria. In the following listed specific steps of object reconstruction that is require to solve the problem.
