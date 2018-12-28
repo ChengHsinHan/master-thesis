@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6800 64-bit) (preloaded format=xelatex 2018.12.4)  21 DEC 2018 17:32
+This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6800 64-bit) (preloaded format=xelatex 2018.12.4)  28 DEC 2018 20:03
 entering extended mode
 **./main.tex
 (main.tex
@@ -2868,6 +2868,8 @@ File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
  [12]
 Chapter 4.
+File: ./figures/zp2HDM.png Graphic file (type bmp)
+<./figures/zp2HDM.png>
 ) (chapter_template_demo.tex
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
@@ -3227,6 +3229,7 @@ chapter_result.tex
 ./figures/nthu-logo.pdf
 chapter_conclusion.tex
 ./figures/nthu-logo.pdf
+./figures/zp2HDM.png
 chapter_template_demo.tex
 ./figures/nthu-logo.pdf
 ./figures/nthu-logo.pdf
@@ -3263,7 +3266,7 @@ lstlang2.sty    2018/09/02 1.7 listings language file
 
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 90.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: EDC0A52CFAD3A3591665119F743D1FAB.
+(rerunfilecheck)             Checksum: 64DA5F2DBD2746070E82EDF50DE7A3A7.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.72pt have occurred.
@@ -3281,10 +3284,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 50465 strings out of 427798
- 1000206 string characters out of 3147261
- 1472191 words of memory out of 3000000
- 53730 multiletter control sequences out of 15000+200000
+ 50472 strings out of 427798
+ 1000332 string characters out of 3147261
+ 1472337 words of memory out of 3000000
+ 53736 multiletter control sequences out of 15000+200000
  539987 words of font info for 107 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
  68i,19n,98p,1272b,3588s stack positions out of 5000i,500n,10000p,200000b,50000s

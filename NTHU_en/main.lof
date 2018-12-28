@@ -10,11 +10,12 @@
 \contentsline {figure}{\numberline {2.2}{\ignorespaces short caption}}{4}{figure.caption.14}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces short caption}}{13}{figure.caption.17}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces short caption}}{19}{figure.caption.18}
-\contentsline {figure}{\numberline {7.2}{\ignorespaces caption, use ``\subref {fig:subfig_fig2}'' get ID of subfigure(this ID is Debian) in caption\relax }}{20}{figure.caption.19}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces short caption}}{19}{figure.caption.19}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces caption, use ``\subref {fig:subfig_fig2}'' get ID of subfigure(this ID is Debian) in caption\relax }}{20}{figure.caption.20}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

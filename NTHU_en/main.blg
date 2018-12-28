@@ -1,8 +1,8 @@
 [0] Config.pm:302> INFO - This is Biber 2.11
 [1] Config.pm:305> INFO - Logfile is 'main.blg'
 [48] biber-MSWIN64:313> INFO - === 
-[82] Biber.pm:371> INFO - Reading 'main.bcf'
-[170] Utils.pm:209> ERROR - Error: Found biblatex control file version 3.5, expected version 3.4.
+[89] Biber.pm:371> INFO - Reading 'main.bcf'
+[211] Utils.pm:209> ERROR - Error: Found biblatex control file version 3.5, expected version 3.4.
 This means that your biber (2.11) and biblatex (3.12) versions are incompatible.
 See compat matrix in biblatex or biber PDF documentation.
-[170] Biber.pm:114> INFO - ERRORS: 1
+[211] Biber.pm:114> INFO - ERRORS: 1
