@@ -28,26 +28,29 @@
 \contentsline {section}{\numberline {3.4}Overlap Removal}{12}{section.3.4}
 \contentsline {chapter}{\numberline {4}Event Selection}{13}{chapter.4}
 \contentsline {section}{\numberline {4.1}Signal Region}{13}{section.4.1}
-\contentsline {chapter}{\numberline {5}Chapter name(demo)}{15}{chapter.5}
-\contentsline {section}{\numberline {5.1}Section name}{15}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Subsection name}{15}{subsection.5.1.1}
-\contentsline {subsubsection}{\numberline {5.1.1.1}Subsubsection name}{15}{subsubsection.5.1.1.1}
-\contentsline {paragraph}{\numberline {5.1.1.1.1}Paragraph name}{15}{paragraph.5.1.1.1.1}
-\contentsline {subparagraph}{Subparagraph name}{15}{subparagraph*.18}
-\contentsline {chapter}{\numberline {6}Test demo}{17}{chapter.6}
-\contentsline {chapter}{\numberline {7}figure}{19}{chapter.7}
-\contentsline {section}{\numberline {7.1}Insert single figure(by sppmg's tool)}{19}{section.7.1}
-\contentsline {section}{\numberline {7.2}Insert figures}{19}{section.7.2}
-\contentsline {chapter}{\numberline {8}Table}{21}{chapter.8}
-\contentsline {section}{\numberline {8.1}Simple table}{21}{section.8.1}
-\contentsline {section}{\numberline {8.2}Auto break line table}{21}{section.8.2}
+\contentsline {section}{\numberline {4.2}Control Region}{15}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}1-muon Control Region}{15}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}2-lepton Control Region}{16}{subsection.4.2.2}
+\contentsline {chapter}{\numberline {5}Chapter name(demo)}{17}{chapter.5}
+\contentsline {section}{\numberline {5.1}Section name}{17}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Subsection name}{17}{subsection.5.1.1}
+\contentsline {subsubsection}{\numberline {5.1.1.1}Subsubsection name}{17}{subsubsection.5.1.1.1}
+\contentsline {paragraph}{\numberline {5.1.1.1.1}Paragraph name}{17}{paragraph.5.1.1.1.1}
+\contentsline {subparagraph}{Subparagraph name}{17}{subparagraph*.19}
+\contentsline {chapter}{\numberline {6}Test demo}{19}{chapter.6}
+\contentsline {chapter}{\numberline {7}figure}{21}{chapter.7}
+\contentsline {section}{\numberline {7.1}Insert single figure(by sppmg's tool)}{21}{section.7.1}
+\contentsline {section}{\numberline {7.2}Insert figures}{21}{section.7.2}
+\contentsline {chapter}{\numberline {8}Table}{23}{chapter.8}
+\contentsline {section}{\numberline {8.1}Simple table}{23}{section.8.1}
+\contentsline {section}{\numberline {8.2}Auto break line table}{23}{section.8.2}
 \ttl@change@i {\@ne }{chapter}{\tocNumSpaceC@Before }{\tocStyleChapterAboveApp }{\tocStyleChapterFont \makebox [\tocNumSpaceC@Total ][l]{\thecontentslabel@chapter@app }}{\tocStyleChapterFont }{\tocStyleChapterFiller }\relax 
 \ttl@change@v {chapter}{}{}{}\relax 
-\contentsline {chapter}{\numberline {A}List of device}{23}{appendix.A}
-\contentsline {chapter}{\numberline {B}Solutions}{25}{appendix.B}
-\contentsline {section}{\numberline {B.1}The solution}{25}{section.B.1}
-\contentsline {chapter}{\numberline {C}Code}{27}{appendix.C}
-\contentsline {section}{\numberline {C.1}C}{27}{section.C.1}
-\contentsline {section}{\numberline {C.2}Matlab}{27}{section.C.2}
-\contentsline {section}{\numberline {C.3}IDL}{27}{section.C.3}
+\contentsline {chapter}{\numberline {A}List of device}{25}{appendix.A}
+\contentsline {chapter}{\numberline {B}Solutions}{27}{appendix.B}
+\contentsline {section}{\numberline {B.1}The solution}{27}{section.B.1}
+\contentsline {chapter}{\numberline {C}Code}{29}{appendix.C}
+\contentsline {section}{\numberline {C.1}C}{29}{section.C.1}
+\contentsline {section}{\numberline {C.2}Matlab}{29}{section.C.2}
+\contentsline {section}{\numberline {C.3}IDL}{29}{section.C.3}
 \contentsfinish 

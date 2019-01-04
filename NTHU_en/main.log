@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6800 64-bit) (preloaded format=xelatex 2018.12.4)  3 JAN 2019 16:54
+This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6800 64-bit) (preloaded format=xelatex 2018.12.4)  4 JAN 2019 17:40
 entering extended mode
 **./main.tex
 (main.tex
@@ -2879,32 +2879,42 @@ File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 [13
 
 ]
-Missing character: There is no ^^V in font [lmroman12-regular]:mapping=tex-text
-;!
-Missing character: There is no ^^V in font [lmroman12-regular]:mapping=tex-text
-;!
-) (chapter_template_demo.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
  [14]
+File: ./figures/ttbar.png Graphic file (type bmp)
+<./figures/ttbar.png>
+File: ./figures/Wjets.png Graphic file (type bmp)
+<./figures/Wjets.png>
+File: ./figures/Zjets.png Graphic file (type bmp)
+<./figures/Zjets.png>
+File: ./figures/nthu-logo.pdf Graphic file (type pdf)
+<use ./figures/nthu-logo.pdf>
+
+[15]) (chapter_template_demo.tex
+File: ./figures/nthu-logo.pdf Graphic file (type pdf)
+<use ./figures/nthu-logo.pdf>
+ [16]
 Chapter 5.
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
-[15
+[17
 
 ]
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
- [16
+ [18
 
 ]
 Chapter 6.
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
-[17]
+[19]
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
- [18
+ [20
 
 ]
 Chapter 7.
@@ -2918,20 +2928,20 @@ File: ./figures/fig3.png Graphic file (type bmp)
 <./figures/fig3.png>
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
-[19]
+[21]
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
- [20]
+ [22]
 Chapter 8.
 )
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
- [21
+ [23
 
 ]
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
- [22
+ [24
 
 ] (bibliography.tex
 
@@ -2942,22 +2952,22 @@ Appendix A.
 ) (appendix_solution.tex
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
- [23
+ [25
 
 ]
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
- [24
+ [26
 
 ]
 Appendix B.
 ) (appendix_codes.tex
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
- [25]
+ [27]
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
- [26
+ [28
 
 ]
 Appendix C.
@@ -3006,7 +3016,7 @@ Missing character: There is no ​ in font [lmroman10-regular]:mapping=tex-text;
  (codes/hello_world_idl.pro))
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
- [27]
+ [29]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 90.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 90.
  (main.aux)
@@ -3239,6 +3249,11 @@ chapter_conclusion.tex
 ./figures/nthu-logo.pdf
 ./figures/zp2HDM.png
 ./figures/nthu-logo.pdf
+./figures/nthu-logo.pdf
+./figures/ttbar.png
+./figures/Wjets.png
+./figures/Zjets.png
+./figures/nthu-logo.pdf
 chapter_template_demo.tex
 ./figures/nthu-logo.pdf
 ./figures/nthu-logo.pdf
@@ -3274,7 +3289,7 @@ lstlang2.sty    2018/09/02 1.7 listings language file
 
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 90.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: CE615CB32A8F6033282A917220A410AF.
+(rerunfilecheck)             Checksum: C588E4C7C2F74F77E46E24965C27B449.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.72pt have occurred.
@@ -3292,12 +3307,12 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 50473 strings out of 427798
- 1000343 string characters out of 3147261
- 1472344 words of memory out of 3000000
- 53737 multiletter control sequences out of 15000+200000
+ 50505 strings out of 427798
+ 1000952 string characters out of 3147261
+ 1473398 words of memory out of 3000000
+ 53766 multiletter control sequences out of 15000+200000
  539987 words of font info for 107 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
- 68i,19n,98p,1456b,3588s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 68i,19n,98p,1462b,3588s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on main.pdf (45 pages).
+Output written on main.pdf (47 pages).
