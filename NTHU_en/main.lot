@@ -7,20 +7,20 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{\ignorespaces The summarization of the jet selection and reconstruction.\relax }}{7}{table.caption.15}
-\contentsline {table}{\numberline {3.2}{\ignorespaces The summarization of lepton selection and reconstruction. The rightmost column are the requirements for the reconstructed small-R jet that decays from a $\tau $-lepton candidate.\relax }}{9}{table.caption.16}
+\contentsline {table}{\numberline {3.1}{\ignorespaces Summary of the jet selection and reconstruction.\relax }}{7}{table.caption.15}
+\contentsline {table}{\numberline {3.2}{\ignorespaces Summary of lepton selection and reconstruction. The rightmost column are the requirements for the reconstructed small-R jet that decays from a $\tau $-lepton candidate. The parentheses in the cell of $\mu $ ID would be covered in the next chapter.\relax }}{9}{table.caption.16}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces placeholder\relax }}{14}{table.caption.18}
-\contentsline {table}{\numberline {4.2}{\ignorespaces placeholder\relax }}{17}{table.caption.20}
-\addvspace {10\p@ }
-\addvspace {10\p@ }
+\contentsline {table}{\numberline {4.1}{\ignorespaces Comparison of signal region and two control regions. This table only shows the characteristic selections and different definitions of (proxy) missing transverse momentum in different regions. One should combine the selections summarized in table \ref {tab:resolved vs merged} to get the whole set of selections in a certain region.\relax }}{18}{table.caption.19}
+\contentsline {table}{\numberline {4.2}{\ignorespaces Summary of common selections of resolved and merged region for all SR and CRs. One should combine the characteristic selections stated in \ref {tab:SR vs CR} to get the whole set of selections in a certain region.\relax }}{19}{table.caption.20}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {8.1}{\ignorespaces Solution\relax }}{25}{table.caption.24}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {A.1}{\ignorespaces List of device\relax }}{27}{table.caption.26}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {B.1}{\ignorespaces The solution\relax }}{29}{table.caption.27}
+\contentsline {table}{\numberline {8.1}{\ignorespaces Solution\relax }}{27}{table.caption.24}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {A.1}{\ignorespaces List of device\relax }}{29}{table.caption.26}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {B.1}{\ignorespaces The solution\relax }}{31}{table.caption.27}
 \addvspace {10\p@ }
 \contentsfinish 
 \contentsfinish 

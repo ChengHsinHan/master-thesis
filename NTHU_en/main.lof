@@ -10,13 +10,13 @@
 \contentsline {figure}{\numberline {2.2}{\ignorespaces short caption}}{4}{figure.caption.14}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces short caption}}{13}{figure.caption.17}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces The Feynamn diagram of the main background events of the Z'-2HDM model. From left to right, \subref {fig:subfig_ttbar} shows the $t\bar {t}$; \subref {fig:subfig_Wjets} shows the W+jets events; \subref {fig:subfig_Zjets} shows the Z+jets events.\relax }}{16}{figure.caption.19}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces short caption}}{15}{figure.caption.17}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces The Feynamn diagram of the main background events of the Z'-2HDM model. From left to right, \subref {fig:subfig_ttbar} shows the $t\bar {t}$; \subref {fig:subfig_Wjets} shows the W+jets events; \subref {fig:subfig_Zjets} shows the Z+jets events. For the $t\bar {t}$ events, the lepton could also decay from the $\mathrm {W^-}$ boson, which is not shown in this figure.\relax }}{17}{figure.caption.18}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces short caption}}{23}{figure.caption.22}
-\contentsline {figure}{\numberline {7.2}{\ignorespaces caption, use ``\subref {fig:subfig_fig2}'' get ID of subfigure(this ID is Debian) in caption\relax }}{24}{figure.caption.23}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces short caption}}{25}{figure.caption.22}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces caption, use ``\subref {fig:subfig_fig2}'' get ID of subfigure(this ID is Debian) in caption\relax }}{26}{figure.caption.23}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
