@@ -33,7 +33,36 @@ Content Content Content
 \section{Results}
 	A fit to the invariant mass of Higgs candidate $m_{\mathrm{h}}$ is used to search for the signal. For resolved region, $m_{\mathrm{jj}}$ represents the Higgs mass while $m_{\mathrm{J}}$ is used in the merged region.
 	
-	The fit is based on a likeli-hood based approach. The systematic uncertainties are used in the likeli-hood function as nuisance parameters. The data in SR and two CRs are fit simultaneously for all four different (proxy) $E_T^{\mathrm{miss}}$ bins: $\left[150, 200\right)$ GeV, $\left[200, 350\right)$ GeV, $\left[350, 500\right)$ GeV, and $\left[500, \infty \right)$ GeV. The fit variable used in the one-muon CR is the $\mu$ lepton charge. $t\bar{t}$ processes tend to produce the same amount of $\mu^+$ and $\mu^-$ leptons but the W+jets events produce more $\mu^+$ than $\mu^-$ leptons, which originates from proton-proton collision in LHC and from the conservation of electric charge. $\mu$-charge can thus be made use of as a differentiation of $t\bar{t}$ and W+jets events.
+	The fit is based on a likeli-hood based approach. The systematic uncertainties are used in the likeli-hood function as nuisance parameters. The data in SR and two CRs are fit simultaneously for all four different (proxy) $E_T^{\mathrm{miss}}$ bins: $\left[150, 200\right)$ GeV, $\left[200, 350\right)$ GeV, $\left[350, 500\right)$ GeV, and $\left[500, \infty \right)$ GeV. $m_{\mathrm{h}}$ is the fit variable in the SR. The fit variable used in the one-muon CR is the $\mu$ lepton charge. $t\bar{t}$ processes tend to produce the same amount of $\mu^+$ and $\mu^-$ leptons but the W+jets events produce more $\mu^+$ than $\mu^-$ leptons, which originates from proton-proton collision in LHC and from the conservation of electric charge. $\mu$-charge can thus be made use of as a differentiation of $t\bar{t}$ and W+jets events. In the two-lepton CR, the event yields serve as the fit variable because of limited data statistics.
+	
+	Figure \ref{fig:SR_mj} shows the distribution of $m_{\mathrm{jj}}$ or $m_{\mathrm{J}}$ in SR for resolved and merged region respectively. Figure \ref{fig:MET_SR} shows the $E_T^{\mathrm{miss}}$ distribution in SR. The data yields agree with the Standard Model (SM) predictions. That is to say, no significant excess of the signal is found.
+	
+	An exclusion limit at 95\% confidence level (CL) is used for the interpretation of this analysis. The exclusion contour in $(m_{\mathrm{A}}, m_{\mathrm{Z'}})$ phase space is shown in figure \ref{fig:exclusion}. It also shows the result in the previous iteration. As it suggests, more region are excluded compared to the previous result.
+	
+	\begin{figure}[!hbt]
+		%\captionsetup[subfigure]{labelformat=empty} % hide figure's number.
+		\centering
+		\subcaptionbox
+		{\label{fig:subfig_SR_mjj_150_200}}
+		{\includegraphics[width=0.4\linewidth]{SR_mjj_150_200.png}}
+		~
+		\subcaptionbox
+		{\label{fig:subfig_SR_mjj_200_350}}
+		{\includegraphics[width=0.4\linewidth]{SR_mjj_200_350.png}}
+		\vspace{\baselineskip} % 分隔上下列
+		\subcaptionbox
+		{\label{fig:subfig_SR_mjj_350_500}}
+		{\includegraphics[width=0.4\linewidth]{SR_mjj_350_500.png}}
+		\subcaptionbox
+		{\label{fig:subfig_SR_mJ_500}}
+		{\includegraphics[width=0.4\linewidth]{SR_mJ_500.png}}
+		\caption{Distirbution of the invariant mass of the Higgs boson candidate $m_{\mathrm{h}}$ with two b-tagged jets. The upper two plots are for $E_T^{\mathrm{miss}} \in \left[150, 200\right)$ GeV and $\left[200, 350\right)$ GeV bins. The lower two ones are for $E_T^{\mathrm{miss}} \in \left[350, 500\right)$ GeV and $\left[500, \infty \right)$ GeV. The dashed blue lines are the expectation yields before fits. The solid histograms are the simulations after fits. The dashed red lines are the expected signal from Z'-2HDM model. Its yields for the upper two plots are scaled up by a factor of 100 and 1000 from left to right respectively.}
+		\label{fig:SR_mj}
+	\end{figure}
+
+	\fig[0.6][fig:MET_SR][!hbt]{MET_SR.png}[The $E_T^{\mathrm{miss}}$ distribution for resolved and merged combined in SR.][short caption]
+	
+	\fig[0.6][fig:exclusion][!hbt]{exclusion.png}[Exclusion contour in $(m_{\mathrm{A}}, m_{\mathrm{Z'}})$ phase space. Regions under the curve are excluded. The solid line shows consistency with SM-only hypothesis. The dashed blue line are the results from previous ATLAS results of $\sqrt{s} = 13$ TeV.][short caption]
 
 
 \chapter{Conclusion}
