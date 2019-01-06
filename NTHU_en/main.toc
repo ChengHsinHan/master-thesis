@@ -37,10 +37,10 @@
 \contentsline {subsubsection}{\numberline {5.1.1.1}Subsubsection name}{21}{subsubsection.5.1.1.1}
 \contentsline {paragraph}{\numberline {5.1.1.1.1}Paragraph name}{21}{paragraph.5.1.1.1.1}
 \contentsline {subparagraph}{Subparagraph name}{21}{subparagraph*.21}
-\contentsline {chapter}{\numberline {6}Test demo}{23}{chapter.6}
-\contentsline {chapter}{\numberline {7}figure}{25}{chapter.7}
-\contentsline {section}{\numberline {7.1}Insert single figure(by sppmg's tool)}{25}{section.7.1}
-\contentsline {section}{\numberline {7.2}Insert figures}{25}{section.7.2}
+\contentsline {chapter}{\numberline {6}Results}{23}{chapter.6}
+\contentsline {section}{\numberline {6.1}Main Uncertainties}{23}{section.6.1}
+\contentsline {section}{\numberline {6.2}Results}{23}{section.6.2}
+\contentsline {chapter}{\numberline {7}Conclusion}{25}{chapter.7}
 \contentsline {chapter}{\numberline {8}Table}{27}{chapter.8}
 \contentsline {section}{\numberline {8.1}Simple table}{27}{section.8.1}
 \contentsline {section}{\numberline {8.2}Auto break line table}{27}{section.8.2}
