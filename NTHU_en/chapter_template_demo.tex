@@ -1,28 +1,20 @@
 \documentclass[class=NCU_thesis, crop=false]{standalone}
 \begin{document}
 
-\chapter{Chapter name(demo)}
-Content of chapter \\
-Content Content Content.
+\chapter{W($\mu \nu$) +jets Events Shape Comparison}
+	As mentioned in the last chapter, the CRs are used to estimate the backgrounds in the SR. Because W+jets events and $t\bar{t}$ events in both SR and one-muon CR are the same processes, one assumes the kinematics are the same. As for the two-lepton CR, first note that the mass of the charged leptons and neutrinos are negligible compared to that of the Z boson. Thus, one can argue that the kinematics of the Z(ll)+jets and Z($\nu \nu$)+jets events are roughly the same, where the Z(ll) means the charged-leptonic decay of the Z boson. In this chapter, an analysis on the shpae difference of W($\mu \nu$)+jets events in both SR and one-muon CR is carried out.
+	
+	A set of W($\mu \nu$)+jets Monte-Carlo (MC) samplesis used. In these samples, the selection fors one-muon CR and SR mentioned in the last chapter are applied. The samples after the selections of SR is used as a comparison to the one-muon CR. The reason why a comparison between W($\mu \nu$)+jets samples and data is not used is because one cannot know the truth-level comparison via it. The data after the one-muon selections would contain the $t\bar{t}$ events since they are also one of the estimation target of one-muon CR. If one adds the $t\bar{t}$ MC samples in the comparison, data and MC comparison is apple-to-apple, but one would lose the information of the shape difference on W($\mu \nu$)+jets events only.
 
-\section{Section name}
-Content of section \\
-Content Content Content
-\subsection{Subsection name}
-Content of subsection \\
-Content Content Content
-
-\subsubsection{Subsubsection name}
-Content of subsubsection \\
-Content Content Content
-
-\paragraph{Paragraph name}
-Content of paragraph \\
-Content Content Content
-
-\subparagraph{Subparagraph name}
-Content of subparagraph \\
-Content Content Content
+	Because one doesn't know the yields of both samples after the selection, a normalization is used on them. After normalization, one can deduce the shape difference without any adjustment on the yields of one of them. The events are put in a histogram plot for comparison. The shape comparison for (proxy) $E_T^{\mathrm{miss}}$ and dijet invariant mass is shown in figure \ref{fig:MET_distribution} and \ref{fig:mjj_distribution}.
+	
+	\fig[0.5][fig:MET_distribution][!hbt]{MET_distribution.pdf}[The (proxy) $E_T^{\mathrm{miss}}$ distribution comparison of W($\mu \nu$)+jets in SR and one-muon CR. The upper pannel shows the distribution after normalization. The lower pannel shows the ratio of the yields in SR to one-muon CR. The auxiliary line at 200 GeV, 350 GeV, and 500 GeV is also provided (dashed blue line).][short caption]
+	
+	\fig[0.5][fig:mjj_distribution][!hbt]{mjj_distribution.pdf}[The dijet mass distribution comparison of W($\mu \nu)$+jets in SR and one-muon CR. The upper pannel shows the distribution after normalization. The lower pannel shows the ratio of the yields in SR to one-muon CR.][short caption]
+	
+	From the plots, one finds out two things. First, the shape distribution of two kinematic variables have the same trend. Second, the ratio of the distribution fluctuates around one, but in some bins it is not. One of the explanation is that the full set of selection in two different regions are not the same. From table \ref{tab:SR vs CR}, one sees that the $S_{\mathrm{object}}$ selection is applied in SR and not in one-muon CR. Thus the final events might behave differently though they are the same processes.
+	
+	As a result, the tendency of the kinematics variables of interest (in this case, (proxy) $E_T^{\mathrm{miss}}$ and dijet invariant mass) are roughly the same in both region. However they can not be treated equally due to one of a possible reason that the set of selections are not the same. A nuisance parameter on this shape comparison study shall be considered in the next iteration of this study.
 
 
 \chapter{Results of monoHbb Analysis}
@@ -39,7 +31,7 @@ Content Content Content
 	
 	The fit is based on a likeli-hood based approach. The systematic uncertainties are used in the likeli-hood function as nuisance parameters. The data in SR and two CRs are fit simultaneously for all four different (proxy) $E_T^{\mathrm{miss}}$ bins: $\left[150, 200\right)$ GeV, $\left[200, 350\right)$ GeV, $\left[350, 500\right)$ GeV, and $\left[500, \infty \right)$ GeV. $m_{\mathrm{h}}$ is the fit variable in the SR. The fit variable used in the one-muon CR is the $\mu$ lepton charge. $t\bar{t}$ processes tend to produce the same amount of $\mu^+$ and $\mu^-$ leptons but the W+jets events produce more $\mu^+$ than $\mu^-$ leptons, which originates from proton-proton collision in LHC and from the conservation of electric charge. $\mu$-charge can thus be made use of as a differentiation of $t\bar{t}$ and W+jets events. In the two-lepton CR, the event yields serve as the fit variable because of limited data statistics.
 	
-	 Figure \ref{fig:MET_SR} shows the $E_T^{\mathrm{miss}}$ distribution in SR. Figure \ref{fig:SR_mj} shows the distribution of $m_{\mathrm{jj}}$ or $m_{\mathrm{J}}$ in SR for resolved and merged region respectively. The data yields agree with the SM predictions. That is to say, no significant excess of the signal is found.
+	Figure \ref{fig:MET_SR} shows the $E_T^{\mathrm{miss}}$ distribution in SR. Figure \ref{fig:SR_mj} shows the distribution of $m_{\mathrm{jj}}$ or $m_{\mathrm{J}}$ in SR for resolved and merged region respectively. The data yields agree with the SM predictions. That is to say, no significant excess of the signal is found.
 	
 	An exclusion limit at 95\% confidence level (CL) is used for the interpretation of this analysis. The exclusion contour in $(m_{\mathrm{A}}, m_{\mathrm{Z'}})$ phase space is shown in figure \ref{fig:exclusion}. It also shows the result in the previous iteration. As it suggests, more region are excluded compared to the previous result. Figure \ref{fig:signal strength} shows the comparison of the upper limit of the signal strength between this result and the previous result, in which the fixed-radius (FR) track jets are used. In contrast to VR, FR track jets have a fixed cone size of $R = 0.2$. The plot also suggests more region in the phase space is excluded.
 	
