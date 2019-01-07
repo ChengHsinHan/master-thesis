@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6800 64-bit) (preloaded format=xelatex 2018.12.4)  7 JAN 2019 17:49
+This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6800 64-bit) (preloaded format=xelatex 2018.12.4)  7 JAN 2019 21:54
 entering extended mode
 **./main.tex
 (main.tex
@@ -2807,21 +2807,22 @@ File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 
 ] (chapter_introduction.tex
 Chapter 1.
-) (chapter_method.tex
+File: ./figures/DM_search.png Graphic file (type bmp)
+<./figures/DM_search.png>
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
- [1
+[1
 
-]
+]) (chapter_method.tex
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
- [2
-
-]
+ [2]
 Chapter 2.
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
-[3]
+[3
+
+]
 File: ./figures/ATLAS.png Graphic file (type bmp)
 <./figures/ATLAS.png>
 File: ./figures/Side_view.png Graphic file (type bmp)
@@ -3293,8 +3294,9 @@ abbreviation.tex
 ./figures/nthu-logo.pdf
 ./figures/nthu-logo.pdf
 chapter_introduction.tex
-chapter_method.tex
+./figures/DM_search.png
 ./figures/nthu-logo.pdf
+chapter_method.tex
 ./figures/nthu-logo.pdf
 ./figures/nthu-logo.pdf
 ./figures/ATLAS.png
@@ -3383,10 +3385,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 50582 strings out of 427798
- 1003212 string characters out of 3147261
- 1475839 words of memory out of 3000000
- 53821 multiletter control sequences out of 15000+200000
+ 50591 strings out of 427798
+ 1003374 string characters out of 3147261
+ 1476048 words of memory out of 3000000
+ 53829 multiletter control sequences out of 15000+200000
  542861 words of font info for 135 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
  68i,18n,97p,1574b,3588s stack positions out of 5000i,500n,10000p,200000b,50000s
