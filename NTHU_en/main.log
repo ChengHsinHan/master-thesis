@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6800 64-bit) (preloaded format=xelatex 2018.12.4)  8 JAN 2019 20:55
+This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6800 64-bit) (preloaded format=xelatex 2018.12.4)  8 JAN 2019 22:32
 entering extended mode
 **./main.tex
 (main.tex
@@ -2905,44 +2905,62 @@ File: ./figures/nthu-logo.pdf Graphic file (type pdf)
  [22]
 File: ./figures/unfixed_posW.jpg Graphic file (type bmp)
 <./figures/unfixed_posW.jpg>
+File: ./figures/fixed_posW.jpg Graphic file (type bmp)
+<./figures/fixed_posW.jpg>
 File: ./figures/unfixed_negW.pdf Graphic file (type pdf)
 <use ./figures/unfixed_negW.pdf>
+File: ./figures/fixed_negW.pdf Graphic file (type pdf)
+<use ./figures/fixed_negW.pdf>
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
  [23]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 35.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mu' on input line 35.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\nu' on input line 35.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 35.
-
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
-[24]
-File: ./figures/MET_distribution.pdf Graphic file (type pdf)
-<use ./figures/MET_distribution.pdf>
-File: ./figures/mjj_distribution.pdf Graphic file (type pdf)
-<use ./figures/mjj_distribution.pdf>
+ [24]
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
  [25]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 41.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\mu' on input line 41.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\nu' on input line 41.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 41.
+
+File: ./figures/oneMET.pdf Graphic file (type pdf)
+<use ./figures/oneMET.pdf>
+File: ./figures/twoMET.pdf Graphic file (type pdf)
+<use ./figures/twoMET.pdf>
+File: ./figures/mjj_distribution.pdf Graphic file (type pdf)
+<use ./figures/mjj_distribution.pdf>
+
+Underfull \vbox (badness 1024) has occurred while \output is active []
+
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
- [26]
+ [26
+
+]
+File: ./figures/nthu-logo.pdf Graphic file (type pdf)
+<use ./figures/nthu-logo.pdf>
+
+[27]
+File: ./figures/nthu-logo.pdf Graphic file (type pdf)
+<use ./figures/nthu-logo.pdf>
+ [28]
 Chapter 6.
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
-[27
+[29
 
 ]
 File: ./figures/MET_SR.png Graphic file (type bmp)
@@ -2957,36 +2975,36 @@ File: ./figures/SR_mJ_500.png Graphic file (type bmp)
 <./figures/SR_mJ_500.png>
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
- [28]
+ [30]
 File: ./figures/exclusion.png Graphic file (type bmp)
 <./figures/exclusion.png>
 File: ./figures/signal_strength.png Graphic file (type bmp)
 <./figures/signal_strength.png>
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
- [29]
+ [31]
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
- [30]
+ [32]
 Chapter 7.
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
-[31
+[33
 
 ]
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
- [32
+ [34
 
 ]
 Chapter 8.
 )
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
- [33]
+ [35]
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
- [34
+ [36
 
 ] (bibliography.tex
 
@@ -3237,11 +3255,16 @@ chapter_template_demo.tex
 ./figures/OR_after.png
 ./figures/nthu-logo.pdf
 ./figures/unfixed_posW.jpg
+./figures/fixed_posW.jpg
 ./figures/unfixed_negW.pdf
+./figures/fixed_negW.pdf
 ./figures/nthu-logo.pdf
 ./figures/nthu-logo.pdf
-./figures/MET_distribution.pdf
+./figures/nthu-logo.pdf
+./figures/oneMET.pdf
+./figures/twoMET.pdf
 ./figures/mjj_distribution.pdf
+./figures/nthu-logo.pdf
 ./figures/nthu-logo.pdf
 ./figures/nthu-logo.pdf
 ./figures/nthu-logo.pdf
@@ -3282,12 +3305,12 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 49836 strings out of 427798
- 994263 string characters out of 3147261
- 1456339 words of memory out of 3000000
- 53117 multiletter control sequences out of 15000+200000
+ 49863 strings out of 427798
+ 994834 string characters out of 3147261
+ 1457226 words of memory out of 3000000
+ 53141 multiletter control sequences out of 15000+200000
  540537 words of font info for 121 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
  68i,18n,97p,1574b,3588s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on main.pdf (48 pages).
+Output written on main.pdf (50 pages).

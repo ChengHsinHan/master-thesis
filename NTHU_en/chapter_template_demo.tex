@@ -4,7 +4,7 @@
 \chapter{Study on the Background Estimation}
 	As mentioned in the last chapter, the CRs are used to estimate the backgrounds in the SR. Because W+jets events and $t\bar{t}$ events in both SR and one-muon CR are the same processes, one assumes the kinematics are the same. As for the two-lepton CR, first note that the mass of the charged leptons and neutrinos are negligible compared to that of the Z boson. Thus, one can argue that the kinematics of the Z(ll)+jets and Z($\nu \nu$)+jets events are roughly the same, where the Z(ll) means the charged-leptonic decay of the Z boson.
 	
-	During the analysis, the author and Po-Shan Shih, a partner of the author, are both working on the estimation of the two-lepton CR. In this chapter, the problems that the author participated or fixed during the study are stated. Also, a shape difference of W($\mu \nu$)+jets events in SR and one-muon CR is carried out as an additional work.
+	During the analysis, the author and Po-Shan Shih, partner of the author, are both working on the estimation of the two-lepton CR. In this chapter, the problems that the author participated or fixed during the study are stated. Also, a shape difference of W($\mu \nu$)+jets events in SR and one-muon CR is carried out as an additional work.
 	
 	\section{Overlap Removal}
 		The comparison plots of Monte Carlo (MC) to data are always reviewed by analyzers. Those plots are referred to as the pre-fit plots. The pre-fit plots contain the data and MC samples that pass the selection criteria. Those events are then filled in the plot based on the value of the physical quantity of interest.
@@ -17,7 +17,7 @@
 
 		Because all these events pass the two-lepton CR selections as stated in section \ref{2LCR}, one of the possible explanation to this peak is misidentification of leptons and large-R jets. It happens when they share the same track or overlap. From figure \ref{fig:OR_before}, one recognizes that the Z(ee)+jets events contributes the most in that bin. Recall the last reconstruction strategy from section \ref{OR} that an electron is removed if it it within $\Delta R = 0.1$ with a large-R jet.
 		
-		As a result, a check in the codes on the overlap removal (OR) was conducted, and the same plot after adding it is shown in figure \ref{fig:OR_after}. From the plot, one can see that the peak around the Z boson mass is removed. This discovery and study reveals the fact that OR wasn't properly applied at that time. After a careful check on the codes with the developer of the framework we used, the OR problem was officailly fixed.
+		As a result, a check in the codes on the overlap removal (OR) was conducted, and the same plot after adding it is shown in figure \ref{fig:OR_after}. From the plot, one can see that the peak around the Z boson mass is removed. This discovery and study reveal the fact that OR wasn't properly applied at that time. After a careful check on the codes with the developer of the framework we used, the OR problem was officailly fixed.
 		
 		\fig[0.5][fig:OR_after][!hbt]{OR_after.png}[The plot which shows the result after overlap removal applies properly. The dotted points represent the data while the solid histogram shows the MC simulations.][short caption]
 	
@@ -26,24 +26,53 @@
 		
 		Another peak was discovered in the Z+jets CR plot during the analysus, as shown in figure \ref{fig:unfixed posW}. The shown plot is also the distribution of leading large-R jet mass, but it also appears in other different plots. Following the logic in the last section, one can tell that it is unusual. However, because of the fact that OR had fixed this time and also because of this spike-like behavior exists in other kinematic variable plots, it must be a result of a different issue.
 		
-		As it turned out, an event was multiplied by a really high generator weight which resulted in a large contribution to the MC. The reason of this is a result of a random generation, which happens in the the type of MC generator the analyzers used. Another similar weird behavior could happen when the generator weight is negative, as shown in figure \ref{fig:unfixed negW}, which was another plot during the analysis. A clear pit shows up in the distribution where it should be continuous.
+		As it turned out, an event was multiplied by a really high generator weight which resulted in a large contribution to the MC. The reason of this is a result of a random generation, which happens in the the type of MC generator the analyzers used. Another similar weird behavior could happen when the generator weight is a great negative value, as shown in figure \ref{fig:unfixed negW}, which was another plot during the analysis. A clear pit shows up in the distribution where it should be continuous.
 		
 		\fig[0.6][fig:unfixed posW][!hbt]{unfixed_posW.jpg}[The plot which shows the unusual peak resulting from the generator weight. It shows the distribution of leading large-R jet mass. The dotted points represent the data while the solid histogram shows the MC simulations. The legends of "Z+mumu" and "Z+ee" in the upper-right of the plots are typos which weren't fixed at that time. They refer to the MC simulations of Z(ee)+jets and Z($\mu \mu$)+jets events respectively.][short caption]
 		
+		\fig[0.6][fig:fixed posW][!hbt]{fixed_posW.jpg}[The plot which shows the result after the event with large generator weight removed. Comparing to \ref{fig:unfixed posW} reveals that the peak disappears.][short caption]
+		
+		The solution to these weights in this iteration is to remove those events, because the number of events with these extreme value of generator weight is small and negligible. The results after removing the events are shown in figure \ref{fig:fixed posW} and \ref{fig:fixed negW}.
+		
 		\fig[0.6][fig:unfixed negW][!hbt]{unfixed_negW.pdf}[The plot which shows the unusual pit. It shows the distribution of dijet mass. The dotted points represent the data while the solid histogram shows the MC simulations.][short caption]
+		
+		\fig[0.6][fig:fixed negW][!hbt]{fixed_negW.pdf}[The plot which shows the result after the events with large negative value of generator weight are removed. Comparing to \ref{fig:unfixed negW} reveals that the pit disappears.][short caption]
 	
 	\section{W($\mu \nu$) +jets Events Shape Comparison}
-		A set of W($\mu \nu$)+jets Monte-Carlo (MC) samplesis used. In these samples, the selection fors one-muon CR and SR mentioned in the last chapter are applied. The samples after the selections of SR is used as a comparison to the one-muon CR. The reason why a comparison between W($\mu \nu$)+jets samples and data is not used is because one cannot know the truth-level comparison via it. The data after the one-muon selections would contain the $t\bar{t}$ events since they are also one of the estimation target of one-muon CR. If one adds the $t\bar{t}$ MC samples in the comparison, data and MC comparison is apple-to-apple, but one would lose the information of the shape difference on W($\mu \nu$)+jets events only.
-
-		Because one doesn't know the yields of both samples after the selection, a normalization is used on them. After normalization, one can deduce the shape difference without any adjustment on the yields of one of them. The events are put in a histogram plot for comparison. The shape comparison for (proxy) $E_T^{\mathrm{miss}}$ and dijet invariant mass is shown in figure \ref{fig:MET_distribution} and \ref{fig:mjj_distribution}.
+		As mentioned in the beginning of this chapter, the W+jets and $t\bar{t}$ events in either SR or one-muon CR are assumed to have the same kinematics. Thus, one-muon CR can be made use of the estimation of the background in SR. However, the author wonders whether the comparison of the kinematics between these two regions matches. Therefore, a study on this is performed.
 	
-		\fig[0.5][fig:MET_distribution][!hbt]{MET_distribution.pdf}[The (proxy) $E_T^{\mathrm{miss}}$ distribution comparison of W($\mu \nu$)+jets in SR and one-muon CR. The upper pannel shows the distribution after normalization. The lower pannel shows the ratio of the yields in SR to one-muon CR. The auxiliary line at 200 GeV, 350 GeV, and 500 GeV is also provided (dashed blue line).][short caption]
+		A set of W($\mu \nu$)+jets Monte-Carlo (MC) samples is used. In these samples, the selection for one-muon CR and SR mentioned in the last chapter are applied. The samples after the selections of SR is used as a comparison to the one-muon CR.
+		
+		The reason why a comparison between W($\mu \nu$)+jets samples and data is not used is because one cannot know the truth-level comparison via it. The data after the one-muon selections would contain the $t\bar{t}$ events since they are also one of the estimation target of one-muon CR. If one adds the $t\bar{t}$ MC samples in the comparison, data and MC comparison is apple-to-apple, but one would lose the information of the shape difference on W($\mu \nu$)+jets events only. 
+		
+		However, because of this, it's difficult to conclude whether the comparison makes sense or is in a reasonable range. As a result, the author makes use of the two-lepton comparison information. In the beginning of the chapter, an assumption on the kinematics of the Z(ll)+jets and Z($\nu \nu$)+jets events are roughly the same is also argued. If it is true, using the comparison of them as an approximation of how the $E_T^{\mathrm{miss}}$ is reconstructed would give us an idea on how the comparison of W($\mu \nu$)+jets comparison between SR and one-muon CR.
+
+		Finally, because one doesn't know the yields of both samples after the selection, a normalization is used on them. After normalization, one can deduce the shape difference without any adjustment on the yields of one of them. The events are put in a histogram plot for comparison. The shape comparison for (proxy) $E_T^{\mathrm{miss}}$ and dijet invariant mass is shown in figure \ref{fig:MET_comparison} and \ref{fig:mjj_distribution}.
+
+		\begin{figure}[!hbt]
+			%\captionsetup[subfigure]{labelformat=empty} % hide figure's number.
+			\centering
+			\subcaptionbox
+			{\label{fig:subfig_onePTV}}
+			{\includegraphics[width=0.45\linewidth]{oneMET.pdf}}
+			~
+			%\vspace{\baselineskip}
+			\subcaptionbox
+			{\label{fig:subfig_twoPTV}}
+			{\includegraphics[width=0.45\linewidth]{twoMET.pdf}}
+			\caption{\subref{fig:subfig_onePTV}The comparison of the (proxy) $E_T^{\mathrm{miss}}$ between SR and one-muon CR for the W($\mu \nu$)+jets events. \subref{fig:subfig_twoPTV}The compasion of the (proxy) $E_T^{\mathrm{miss}}$ between SR and two-lepton CR for the Z+jets events. Both the upper pannels show the normalized distribution and the lower pannels show the ratio of SR to CRs. The latter plot is meant to be an approximation to how large the ratio of the former plot is.}
+			\label{fig:MET_comparison}
+		\end{figure}
 	
 		\fig[0.5][fig:mjj_distribution][!hbt]{mjj_distribution.pdf}[The dijet mass distribution comparison of W($\mu \nu)$+jets in SR and one-muon CR. The upper pannel shows the distribution after normalization. The lower pannel shows the ratio of the yields in SR to one-muon CR.][short caption]
+		
+		From figure \ref{fig:MET_comparison}, interseting things are found. First, the shape distribution has the same trend. Second, the ratio fluctuates around one. Finally, the left-to-right comparison reveals a fact that more extreme ratio happens on the left. For the W($\mu \nu$)+jets event comparison, it is noticed that at lower energy, the number of events in SR is larger than that of the CR compared to the Z+jets comparison. That is to say, at lower energy, W($\mu \nu$)+jets events are a little bit underestimate the backgrounds in SR, and at higher energy, overestimation happens.
+		
+		In author's opinion, although the W($\mu \nu$)+jets events are the same in both SR and one-muon CR, the set of selections are slightly different. From table \ref{tab:SR vs CR}, one sees that the $S_{\mathrm{object}}$ selection is applied in the former and not in the latter. Recall from section \ref{MET} that if $S_{\mathrm{object}}$ has a larger value, more possibilities that the $E_T^{\mathrm{miss}}$ are reconstructed from invisible particles are implied. However, W($\mu \nu$)+jets events would appear in the SR only when the muon is misidentified.
 	
-		From the plots, one finds out two things. First, the shape distribution of two kinematic variables have the same trend. Second, the ratio of the distribution fluctuates around one, but in some bins it is not. One of the explanation is that the full set of selection in two different regions are not the same. From table \ref{tab:SR vs CR}, one sees that the $S_{\mathrm{object}}$ selection is applied in SR and not in one-muon CR. Thus the final events might behave differently though they are the same processes.
+		%From the plots, one finds out two things. First, the shape distribution of two kinematic variables have the same trend. Second, the ratio of the distribution fluctuates around one, but in some bins it is not. One of the explanation is that the full set of selection in two different regions are not the same. From table \ref{tab:SR vs CR}, one sees that the $S_{\mathrm{object}}$ selection is applied in SR and not in one-muon CR. Thus the final events might behave differently though they are the same processes.
 	
-		As a result, the tendency of the kinematics variables of interest (in this case, (proxy) $E_T^{\mathrm{miss}}$ and dijet invariant mass) are roughly the same in both region. However they can not be treated equally due to one of a possible reason that the set of selections are not the same. A nuisance parameter on this shape comparison study shall be considered in the next iteration of this study.
+		%As a result, the tendency of the kinematics variables of interest (in this case, (proxy) $E_T^{\mathrm{miss}}$ and dijet invariant mass) are roughly the same in both region. However they can not be treated equally due to one of a possible reason that the set of selections are not the same. A nuisance parameter on this shape comparison study shall be considered in the next iteration of this study.
 
 
 \chapter{Results of monoHbb Analysis}
