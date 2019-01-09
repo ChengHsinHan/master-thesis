@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6930 64-bit) (preloaded format=xelatex 2019.1.9)  9 JAN 2019 11:54
+This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6930 64-bit) (preloaded format=xelatex 2019.1.9)  9 JAN 2019 21:18
 entering extended mode
 **./main.tex
 (main.tex
@@ -2018,39 +2018,25 @@ File: ./figures/nthu-logo.pdf Graphic file (type pdf)
  [2
 
 
-]) (main.tdo)
-\tf@tdo=\write7
-\openout7 = `main.tdo'.
-
-Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
-ine 26.
+]) (abstract_zh.tex) (abstract_en.tex
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
  [3
+
 
 ]
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
  [4
 
-] (abstract_zh.tex) (abstract_en.tex
+]) (acknowledgements.tex
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
- [5
 
-]
+[5]
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
  [6
-
-])
-(acknowledgements.tex
-File: ./figures/nthu-logo.pdf Graphic file (type pdf)
-<use ./figures/nthu-logo.pdf>
- [7]
-File: ./figures/nthu-logo.pdf Graphic file (type pdf)
-<use ./figures/nthu-logo.pdf>
- [8
 
 ]
 File: ./figures/logo-NCU.jpg Graphic file (type bmp)
@@ -2064,35 +2050,35 @@ File: ./figures/logo-Linux.png Graphic file (type bmp)
 )
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
- [9]
+ [7]
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
- [10
+ [8
 
 ] (main.toc
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
- [11
+ [9
 
 ])
-\tf@toc=\write8
-\openout8 = `main.toc'.
+\tf@toc=\write7
+\openout7 = `main.toc'.
 
  (abbreviation.tex
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
-
-[12])
+ [10])
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
- [13
+ [11
 
 ]
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
- [14
+ [12
 
-] (chapter_introduction.tex
+]
+(chapter_introduction.tex
 Chapter 1.
 File: ./figures/DM_search.png Graphic file (type bmp)
 <./figures/DM_search.png>
@@ -2249,10 +2235,8 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 41.
 
-File: ./figures/oneMET.pdf Graphic file (type pdf)
-<use ./figures/oneMET.pdf>
-File: ./figures/twoMET.pdf Graphic file (type pdf)
-<use ./figures/twoMET.pdf>
+File: ./figures/manybins.pdf Graphic file (type pdf)
+<use ./figures/manybins.pdf>
 
 Underfull \vbox (badness 1024) has occurred while \output is active []
 
@@ -2515,8 +2499,6 @@ gettitlestring.sty    2016/05/16 v1.5 Cleanup title references (HO)
 titlepage.tex
 ./figures/nthu-logo.pdf
 ./figures/nthu-logo.pdf
-./figures/nthu-logo.pdf
-./figures/nthu-logo.pdf
 abstract_zh.tex
 abstract_en.tex
 ./figures/nthu-logo.pdf
@@ -2578,8 +2560,7 @@ chapter_template_demo.tex
 ./figures/nthu-logo.pdf
 ./figures/nthu-logo.pdf
 ./figures/nthu-logo.pdf
-./figures/oneMET.pdf
-./figures/twoMET.pdf
+./figures/manybins.pdf
 ./figures/nthu-logo.pdf
 ./figures/nthu-logo.pdf
 ./figures/nthu-logo.pdf
@@ -2604,7 +2585,7 @@ bibliography.tex
 
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 88.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 4A42132E0E8737C48CA371CA95DB545C.
+(rerunfilecheck)             Checksum: 38840BA5B243002CADD8573F08CCD7AB.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.72pt have occurred.
@@ -2614,12 +2595,12 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 50230 strings out of 427748
- 1002329 string characters out of 3146446
- 1467720 words of memory out of 3000000
- 53541 multiletter control sequences out of 15000+200000
+ 50188 strings out of 427748
+ 1001371 string characters out of 3146446
+ 1466940 words of memory out of 3000000
+ 53503 multiletter control sequences out of 15000+200000
  540553 words of font info for 123 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
  68i,17n,97p,1574b,4759s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on main.pdf (51 pages).
+Output written on main.pdf (49 pages).

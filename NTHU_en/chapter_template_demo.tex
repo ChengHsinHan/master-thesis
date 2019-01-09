@@ -44,33 +44,33 @@
 		A set of W($\mu \nu$)+jets Monte-Carlo (MC) samples is used. In these samples, the selection for one-muon CR and SR mentioned in the last chapter are applied. The samples after the selections of SR is used as a comparison to the one-muon CR.
 		
 		The reason why a comparison between W($\mu \nu$)+jets samples and data is not used is because one cannot know the truth-level comparison via it. The data after the one-muon selections would contain the $t\bar{t}$ events since they are also one of the estimation target of one-muon CR. If one adds the $t\bar{t}$ MC samples in the comparison, data and MC comparison is apple-to-apple, but one would lose the information of the shape difference on W($\mu \nu$)+jets events only. 
+
+		Because one doesn't know the yields of both samples after the selection, a normalization is used on them. After normalization, one can deduce the shape difference without any adjustment on the yields of one of them. The events are put in a histogram plot for comparison. The shape comparison for (proxy) $E_T^{\mathrm{miss}}$ is shown in figure \ref{fig:MET_comparison}. Besides, a yields uncertainty of 5\% is assigned to this SR and one-muon CR extrapolation. The reason of 5\% is due to the fact that some uncertainties used in this analysis follow the results of another analysis group, the Vh(bb) group, including this uncertainty value.
 		
-		However, because of this, it's difficult to conclude whether the comparison makes sense or is in a reasonable range. As a result, the author makes use of the two-lepton comparison information. In the beginning of the chapter, an assumption on the kinematics of the Z(ll)+jets and Z($\nu \nu$)+jets events are roughly the same is also argued. If it is true, using the comparison of them as an approximation of how the $E_T^{\mathrm{miss}}$ is reconstructed would give us an idea on how the comparison of W($\mu \nu$)+jets comparison between SR and one-muon CR.
+		\fig[0.6][fig:MET_comparison][!hbt]{manybins.pdf}[placeholder.][short caption]
 
-		Finally, because one doesn't know the yields of both samples after the selection, a normalization is used on them. After normalization, one can deduce the shape difference without any adjustment on the yields of one of them. The events are put in a histogram plot for comparison. The shape comparison for (proxy) $E_T^{\mathrm{miss}}$ is shown in figure \ref{fig:MET_comparison}.
-
-		\begin{figure}[!hbt]
+		%\begin{figure}[!hbt]
 			%\captionsetup[subfigure]{labelformat=empty} % hide figure's number.
-			\centering
-			\subcaptionbox
-			{\label{fig:subfig_onePTV}}
-			{\includegraphics[width=0.45\linewidth]{oneMET.pdf}}
-			~
+		%	\centering
+		%	\subcaptionbox
+		%	{\label{fig:subfig_onePTV}}
+		%	{\includegraphics[width=0.45\linewidth]{manybins.pdf}}
+		%	~
 			%\vspace{\baselineskip}
-			\subcaptionbox
-			{\label{fig:subfig_twoPTV}}
-			{\includegraphics[width=0.45\linewidth]{twoMET.pdf}}
-			\caption{\subref{fig:subfig_onePTV}The comparison of the (proxy) $E_T^{\mathrm{miss}}$ between SR and one-muon CR for the W($\mu \nu$)+jets events. \subref{fig:subfig_twoPTV}The compasion of the (proxy) $E_T^{\mathrm{miss}}$ between SR and two-lepton CR for the Z+jets events. Both the upper pannels show the normalized distribution and the lower pannels show the ratio of SR to CRs. The latter plot is meant to be an approximation to how large the ratio of the former plot is.}
-			\label{fig:MET_comparison}
-		\end{figure}
+		%	\subcaptionbox
+		%	{\label{fig:subfig_twoPTV}}
+		%	{\includegraphics[width=0.45\linewidth]{twoMET.pdf}}
+		%	\caption{\subref{fig:subfig_onePTV}The comparison of the (proxy) $E_T^{\mathrm{miss}}$ between SR and one-muon CR for the W($\mu \nu$)+jets events. \subref{fig:subfig_twoPTV}The compasion of the (proxy) $E_T^{\mathrm{miss}}$ between SR and two-lepton CR for the Z+jets events. Both the upper pannels show the normalized distribution and the lower pannels show the ratio of SR to CRs. The latter plot is meant to be an approximation to how large the ratio of the former plot is.}
+		%	\label{fig:MET_comparison}
+		%\end{figure}
 	
 		%\fig[0.5][fig:mjj_distribution][!hbt]{mjj_distribution.pdf}[The dijet mass distribution comparison of W($\mu \nu)$+jets in SR and one-muon CR. The upper pannel shows the distribution after normalization. The lower pannel shows the ratio of the yields in SR to one-muon CR.][short caption]
 		
-		From figure \ref{fig:MET_comparison}, interseting things are found. First, the shape distribution has the same trend. Second, the ratio fluctuates around one. Finally, the left-to-right comparison reveals a fact that more extreme ratio happens on the left. For the W($\mu \nu$)+jets events comparison, it is noticed that at lower energy, the number of events in SR is larger than that of the CR compared to the Z+jets comparison. That is to say, at lower energy, W($\mu \nu$)+jets events underestimate the backgrounds in SR, and at higher energy, overestimation happens.
+		From figure \ref{fig:MET_comparison}, two interseting things are found. First, the shape distribution has the same trend. Second, the ratios between the SR and one-muon CR are generally away from the 5\% difference as shown.  It is noticed that at lower energy, the ratios are larger than the upper limit and, at higher energy, the ratios are less than the lower limit, except for the last few bins, where the statistics are low. That is to say, at lower energy, W($\mu \nu$)+jets events underestimate the backgrounds in SR, and at higher energy, overestimation happens.
 		
-		In author's opinion, although the W($\mu \nu$)+jets events are the same in both SR and one-muon CR, the situation is a little bit different. These events would appear in the SR only when the muon is misidentified. If the $p_T$ of the muon is higher, it's more likely that the muon would make its way to the muon spectrometer and thus identified. On the other hand, if the $p_T$ is lower, misidentification happens more likely. Therefore, more events whose muons have higher $p_T$ are removed in the SR but events with more low $p_T$ muons stay in the SR. However, in one-muon CR, all detected muons are used to estimate $E_T^{\mathrm{miss}}$, which results in an overall underestimation in the lower energy region and overestimation in the higher energy region.
+		In author's opinion, although the W($\mu \nu$)+jets events are the same in both SR and one-muon CR, the situation is a little bit different. These events would appear in the SR only when the muon is misidentified. If the muon is soft, which means it has low $p_T$, it's more likely to be misidentified and thus be reconstructed as $E_T^{\mathrm{miss}}$. On the other hand, if the $p_T$ is higher, misidentification are less likely to happen and the muon are rejected by the selection of SR. Therefore, more events whose muons have higher $p_T$ are removed in the SR but events with more low $p_T$ muons stay in the SR. This means that the true simulation, which is expected in one-muon CR, underestimates the yields at lower energy and overestimate at higher energy. Due to this poor estimation, one sees the severely flucuating ratio values.
 		
-		As a minor conclusion, the W($\mu \nu$)+jets comparison between SR and CR fluctuates more severely compared to that of Z+jets events. One of the assumption on this is the simulation uncertainties on the misidentification.
+		As a minor conclusion, the W($\mu \nu$)+jets comparison between SR and CR doesn't quite fit in the 5\% limit. One of the assumption on this is that the over- and under- estimation on different value of $p_T$ are not well covered by the uncertainty. The yield uncertainty shall be recalculated for this issue.
 
 \chapter{Results of monoHbb Analysis}
 

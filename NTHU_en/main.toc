@@ -1,10 +1,10 @@
 \nobreakspace {}\hfill \textbf {page}\par 
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
-\contentsline {chapter}{摘要}{v}{chapter*.3}% 
-\contentsline {chapter}{Abstract}{vii}{chapter*.4}% 
-\contentsline {chapter}{Acknowledgement}{ix}{chapter*.5}% 
-\contentsline {chapter}{Contents}{xi}{section*.7}% 
-\contentsline {chapter}{Glossary}{xiii}{chapter*.9}% 
+\contentsline {chapter}{摘要}{iii}{chapter*.1}% 
+\contentsline {chapter}{Abstract}{v}{chapter*.2}% 
+\contentsline {chapter}{Acknowledgement}{vii}{chapter*.3}% 
+\contentsline {chapter}{Contents}{ix}{section*.5}% 
+\contentsline {chapter}{Glossary}{xi}{chapter*.7}% 
 \ttl@change@i {\@ne }{chapter}{\tocNumSpaceC@Before }{\addvspace {1em}}{\tocStyleChapterFont \makebox [\tocNumSpaceC@Total ][l]{\thecontentslabel@chapter }}{\tocStyleChapterFont }{\tocStyleChapterFiller }\relax 
 \ttl@change@v {chapter}{}{}{}\relax 
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}% 
@@ -40,7 +40,7 @@
 \contentsline {section}{\numberline {6.2}Results}{29}{section.6.2}% 
 \contentsline {chapter}{\numberline {7}Conclusion}{33}{chapter.7}% 
 \contentsline {chapter}{\numberline {8}Reference}{35}{chapter.8}% 
-\contentsline {chapter}{Bibliography}{37}{chapter*.31}% 
+\contentsline {chapter}{Bibliography}{37}{chapter*.29}% 
 \ttl@change@i {\@ne }{chapter}{\tocNumSpaceC@Before }{\tocStyleChapterAboveApp }{\tocStyleChapterFont \makebox [\tocNumSpaceC@Total ][l]{\thecontentslabel@chapter@app }}{\tocStyleChapterFont }{\tocStyleChapterFiller }\relax 
 \ttl@change@v {chapter}{}{}{}\relax 
 \contentsfinish 
