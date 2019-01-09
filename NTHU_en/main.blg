@@ -1,8 +1,17 @@
-[0] Config.pm:302> INFO - This is Biber 2.11
-[0] Config.pm:305> INFO - Logfile is 'main.blg'
-[32] biber-MSWIN64:313> INFO - === 
-[62] Biber.pm:371> INFO - Reading 'main.bcf'
-[144] Utils.pm:209> ERROR - Error: Found biblatex control file version 3.5, expected version 3.4.
-This means that your biber (2.11) and biblatex (3.12) versions are incompatible.
-See compat matrix in biblatex or biber PDF documentation.
-[144] Biber.pm:114> INFO - ERRORS: 1
+[0] Config.pm:304> INFO - This is Biber 2.12
+[1] Config.pm:307> INFO - Logfile is 'main.blg'
+[43] biber-MSWIN64:315> INFO - === 
+[76] Biber.pm:371> INFO - Reading 'main.bcf'
+[166] Biber.pm:889> INFO - Found 2 citekeys in bib section 0
+[182] Biber.pm:4093> INFO - Processing section 0
+[194] Biber.pm:4254> INFO - Looking for bibtex format file 'demo.bib' for section 0
+[198] bibtex.pm:1523> INFO - LaTeX decoding ...
+[204] bibtex.pm:1340> INFO - Found BibTeX data source 'demo.bib'
+[219] Utils.pm:193> WARN - I didn't find a database entry for '_sppmg/tw_thesis_template_????' (section 0)
+[229] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[229] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[229] Biber.pm:3921> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[229] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
+[230] bbl.pm:636> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[231] bbl.pm:739> INFO - Output to main.bbl
+[233] Biber.pm:110> INFO - WARNINGS: 1
