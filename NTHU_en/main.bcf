@@ -91,15 +91,15 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxbibnames</bcf:key>
-      <bcf:value>999</bcf:value>
+      <bcf:value>5</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxcitenames</bcf:key>
-      <bcf:value>3</bcf:value>
+      <bcf:value>2</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxsortnames</bcf:key>
-      <bcf:value>999</bcf:value>
+      <bcf:value>5</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxitems</bcf:key>
@@ -111,15 +111,15 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>minbibnames</bcf:key>
-      <bcf:value>3</bcf:value>
+      <bcf:value>1</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>mincitenames</bcf:key>
-      <bcf:value>3</bcf:value>
+      <bcf:value>1</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>minsortnames</bcf:key>
-      <bcf:value>3</bcf:value>
+      <bcf:value>1</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>minitems</bcf:key>
@@ -171,7 +171,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>useprefix</bcf:key>
-      <bcf:value>0</bcf:value>
+      <bcf:value>1</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>useafterword</bcf:key>
@@ -383,7 +383,8 @@
     <bcf:option datatype="boolean">eprint</bcf:option>
     <bcf:option datatype="boolean">related</bcf:option>
     <bcf:option datatype="boolean">subentry</bcf:option>
-    <bcf:option datatype="boolean">dashed</bcf:option>
+    <bcf:option datatype="boolean">articletitle</bcf:option>
+    <bcf:option datatype="boolean">intitle</bcf:option>
     <bcf:option datatype="integer">mincrossrefs</bcf:option>
     <bcf:option datatype="integer">minxrefs</bcf:option>
     <bcf:option datatype="integer">maxnames</bcf:option>
@@ -1999,9 +2000,27 @@
     <bcf:citekey order="1">_sppmg/tw_thesis_template_????</bcf:citekey>
     <bcf:citekey order="2">hep-ph/0404175</bcf:citekey>
     <bcf:citekey order="3">STEIGMAN1985375</bcf:citekey>
-    <bcf:citekey order="4">PhysRevD.33.1585</bcf:citekey>
-    <bcf:citekey order="5">1507.00966</bcf:citekey>
-    <bcf:citekey order="6">1711.03301</bcf:citekey>
+    <bcf:citekey order="3">PhysRevD.33.1585</bcf:citekey>
+    <bcf:citekey order="4">1507.00966</bcf:citekey>
+    <bcf:citekey order="5">1711.03301</bcf:citekey>
+    <bcf:citekey order="5">1712.02345</bcf:citekey>
+    <bcf:citekey order="6">1710.11412</bcf:citekey>
+    <bcf:citekey order="6">1711.11520</bcf:citekey>
+    <bcf:citekey order="6">1801.08427</bcf:citekey>
+    <bcf:citekey order="6">1706.02581</bcf:citekey>
+    <bcf:citekey order="7">1712.02345</bcf:citekey>
+    <bcf:citekey order="7">1704.03848</bcf:citekey>
+    <bcf:citekey order="7">1708.09624</bcf:citekey>
+    <bcf:citekey order="7">1711.00431</bcf:citekey>
+    <bcf:citekey order="7">1706.03794</bcf:citekey>
+    <bcf:citekey order="7">1701.02042</bcf:citekey>
+    <bcf:citekey order="8">1706.03948</bcf:citekey>
+    <bcf:citekey order="8">1707.01302</bcf:citekey>
+    <bcf:citekey order="8">1806.04771</bcf:citekey>
+    <bcf:citekey order="8">1703.05236</bcf:citekey>
+    <bcf:citekey order="9">1707.01302</bcf:citekey>
+    <bcf:citekey order="10">1748-0221-3-08-S08003</bcf:citekey>
+    <bcf:citekey order="11">0802.1189</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
