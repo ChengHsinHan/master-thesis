@@ -16008,6 +16008,126 @@
       \verb arXiv:0802.1189
       \endverb
     \endentry
+    \entry{1512.01094}{article}{}
+      \name{author}{1}{}{%
+        {{hash=a3364242a05dc5a80a93fa55804031af}{%
+           family={Collaboration},
+           familyi={C\bibinitperiod},
+           given={ATLAS},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{a3364242a05dc5a80a93fa55804031af}
+      \strng{fullhash}{a3364242a05dc5a80a93fa55804031af}
+      \strng{bibnamehash}{a3364242a05dc5a80a93fa55804031af}
+      \strng{authorbibnamehash}{a3364242a05dc5a80a93fa55804031af}
+      \strng{authornamehash}{a3364242a05dc5a80a93fa55804031af}
+      \strng{authorfullhash}{a3364242a05dc5a80a93fa55804031af}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{JINST 11 P04008 (2016)}
+      \field{title}{Performance of $b$-Jet Identification in the ATLAS Experiment}
+      \field{year}{2015}
+      \verb{doi}
+      \verb 10.1088/1748-0221/11/04/P04008
+      \endverb
+      \verb{eprint}
+      \verb arXiv:1512.01094
+      \endverb
+    \endentry
+    \entry{0903.0392}{article}{}
+      \name{author}{3}{}{%
+        {{hash=e3ba0109afe76df6438d338d0fd4c248}{%
+           family={Krohn},
+           familyi={K\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=90f102f9e580c8d97064f719874e0764}{%
+           family={Thaler},
+           familyi={T\bibinitperiod},
+           given={Jesse},
+           giveni={J\bibinitperiod}}}%
+        {{hash=02f32d1857ef6f3cdbef31215796c9c0}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Lian-Tao},
+           giveni={L\bibinithyphendelim T\bibinitperiod}}}%
+      }
+      \strng{namehash}{45bd831b5b212326bedf74091fc30c22}
+      \strng{fullhash}{3924e9b0d9de365666341ed19ac09987}
+      \strng{bibnamehash}{3924e9b0d9de365666341ed19ac09987}
+      \strng{authorbibnamehash}{3924e9b0d9de365666341ed19ac09987}
+      \strng{authornamehash}{45bd831b5b212326bedf74091fc30c22}
+      \strng{authorfullhash}{3924e9b0d9de365666341ed19ac09987}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{JHEP 0906:059,2009}
+      \field{title}{Jets with Variable R}
+      \field{year}{2009}
+      \verb{doi}
+      \verb 10.1088/1126-6708/2009/06/059
+      \endverb
+      \verb{eprint}
+      \verb arXiv:0903.0392
+      \endverb
+    \endentry
+    \entry{1412.7086}{article}{}
+      \name{author}{1}{}{%
+        {{hash=ebfe6052e5f504e4a3579c49c44afe41}{%
+           family={{ATLAS Collaboration}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{ebfe6052e5f504e4a3579c49c44afe41}
+      \strng{fullhash}{ebfe6052e5f504e4a3579c49c44afe41}
+      \strng{bibnamehash}{ebfe6052e5f504e4a3579c49c44afe41}
+      \strng{authorbibnamehash}{ebfe6052e5f504e4a3579c49c44afe41}
+      \strng{authornamehash}{ebfe6052e5f504e4a3579c49c44afe41}
+      \strng{authorfullhash}{ebfe6052e5f504e4a3579c49c44afe41}
+      \field{extraname}{8}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Eur. Phys. J. C75 (2015) 303}
+      \field{title}{Identification and energy calibration of hadronically decaying tau leptons with the ATLAS experiment in {$pp$} collisions at {$\sqrt{s}$}=8 TeV}
+      \field{year}{2014}
+      \verb{doi}
+      \verb 10.1140/epjc/s10052-015-3500-z
+      \endverb
+      \verb{eprint}
+      \verb arXiv:1412.7086
+      \endverb
+    \endentry
+    \entry{1609.09324}{article}{}
+      \name{author}{1}{}{%
+        {{hash=ebfe6052e5f504e4a3579c49c44afe41}{%
+           family={{ATLAS Collaboration}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{ebfe6052e5f504e4a3579c49c44afe41}
+      \strng{fullhash}{ebfe6052e5f504e4a3579c49c44afe41}
+      \strng{bibnamehash}{ebfe6052e5f504e4a3579c49c44afe41}
+      \strng{authorbibnamehash}{ebfe6052e5f504e4a3579c49c44afe41}
+      \strng{authornamehash}{ebfe6052e5f504e4a3579c49c44afe41}
+      \strng{authorfullhash}{ebfe6052e5f504e4a3579c49c44afe41}
+      \field{extraname}{9}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Eur. Phys. J. C77 (2017) 241}
+      \field{title}{Performance of algorithms that reconstruct missing transverse momentum in {$\sqrt{s}=$} 8 TeV proton-proton collisions in the ATLAS detector}
+      \field{year}{2016}
+      \verb{doi}
+      \verb 10.1140/epjc/s10052-017-4780-2
+      \endverb
+      \verb{eprint}
+      \verb arXiv:1609.09324
+      \endverb
+    \endentry
   \enddatalist
   \missing{_sppmg/tw_thesis_template_????}
 \endrefsection
