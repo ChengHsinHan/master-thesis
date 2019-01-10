@@ -1,19 +1,19 @@
 [0] Config.pm:304> INFO - This is Biber 2.12
 [1] Config.pm:307> INFO - Logfile is 'main.blg'
-[36] biber-MSWIN64:315> INFO - === 
-[71] Biber.pm:371> INFO - Reading 'main.bcf'
-[167] Biber.pm:889> INFO - Found 22 citekeys in bib section 0
-[183] Biber.pm:4093> INFO - Processing section 0
-[196] Biber.pm:4254> INFO - Looking for bibtex format file 'demo.bib' for section 0
-[212] bibtex.pm:1523> INFO - LaTeX decoding ...
-[308] bibtex.pm:1340> INFO - Found BibTeX data source 'demo.bib'
-[310] Utils.pm:193> WARN - Duplicate entry key: '1707.01302' in file 'demo.bib', skipping ...
-[328] Utils.pm:193> WARN - month field 'Mar' in entry 'PhysRevD.33.1585' is not an integer - this will probably not sort properly.
-[4399] Utils.pm:193> WARN - I didn't find a database entry for '_sppmg/tw_thesis_template_????' (section 0)
-[4512] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[4512] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[4512] Biber.pm:3921> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[4512] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
-[4670] bbl.pm:636> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[12282] bbl.pm:739> INFO - Output to main.bbl
-[12290] Biber.pm:110> INFO - WARNINGS: 3
+[45] biber-MSWIN64:315> INFO - === 
+[80] Biber.pm:371> INFO - Reading 'main.bcf'
+[176] Biber.pm:889> INFO - Found 22 citekeys in bib section 0
+[192] Biber.pm:4093> INFO - Processing section 0
+[206] Biber.pm:4254> INFO - Looking for bibtex format file 'demo.bib' for section 0
+[222] bibtex.pm:1523> INFO - LaTeX decoding ...
+[313] bibtex.pm:1340> INFO - Found BibTeX data source 'demo.bib'
+[315] Utils.pm:193> WARN - Duplicate entry key: '1707.01302' in file 'demo.bib', skipping ...
+[332] Utils.pm:193> WARN - month field 'Mar' in entry 'PhysRevD.33.1585' is not an integer - this will probably not sort properly.
+[4337] Utils.pm:193> WARN - I didn't find a database entry for '_sppmg/tw_thesis_template_????' (section 0)
+[4470] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[4471] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[4471] Biber.pm:3921> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[4471] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
+[4626] bbl.pm:636> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[12203] bbl.pm:739> INFO - Output to main.bbl
+[12212] Biber.pm:110> INFO - WARNINGS: 3

@@ -860,18 +860,16 @@
     \endentry
     \entry{1711.03301}{article}{}
       \name{author}{1}{}{%
-        {{hash=a3364242a05dc5a80a93fa55804031af}{%
-           family={Collaboration},
-           familyi={C\bibinitperiod},
-           given={ATLAS},
-           giveni={A\bibinitperiod}}}%
+        {{hash=ebfe6052e5f504e4a3579c49c44afe41}{%
+           family={{ATLAS Collaboration}},
+           familyi={A\bibinitperiod}}}%
       }
-      \strng{namehash}{a3364242a05dc5a80a93fa55804031af}
-      \strng{fullhash}{a3364242a05dc5a80a93fa55804031af}
-      \strng{bibnamehash}{a3364242a05dc5a80a93fa55804031af}
-      \strng{authorbibnamehash}{a3364242a05dc5a80a93fa55804031af}
-      \strng{authornamehash}{a3364242a05dc5a80a93fa55804031af}
-      \strng{authorfullhash}{a3364242a05dc5a80a93fa55804031af}
+      \strng{namehash}{ebfe6052e5f504e4a3579c49c44afe41}
+      \strng{fullhash}{ebfe6052e5f504e4a3579c49c44afe41}
+      \strng{bibnamehash}{ebfe6052e5f504e4a3579c49c44afe41}
+      \strng{authorbibnamehash}{ebfe6052e5f504e4a3579c49c44afe41}
+      \strng{authornamehash}{ebfe6052e5f504e4a3579c49c44afe41}
+      \strng{authorfullhash}{ebfe6052e5f504e4a3579c49c44afe41}
       \field{extraname}{1}
       \field{sortinit}{5}
       \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
@@ -889,19 +887,17 @@
     \endentry
     \entry{1712.02345}{article}{}
       \name{author}{1}{}{%
-        {{hash=e742ba4e105e5341464c3528b118ff41}{%
-           family={Collaboration},
-           familyi={C\bibinitperiod},
-           given={CMS},
-           giveni={C\bibinitperiod}}}%
+        {{hash=0448d009825e0bfac7316a655abf5740}{%
+           family={{CMS Collaboration}},
+           familyi={C\bibinitperiod}}}%
       }
-      \strng{namehash}{e742ba4e105e5341464c3528b118ff41}
-      \strng{fullhash}{e742ba4e105e5341464c3528b118ff41}
-      \strng{bibnamehash}{e742ba4e105e5341464c3528b118ff41}
-      \strng{authorbibnamehash}{e742ba4e105e5341464c3528b118ff41}
-      \strng{authornamehash}{e742ba4e105e5341464c3528b118ff41}
-      \strng{authorfullhash}{e742ba4e105e5341464c3528b118ff41}
-      \field{extraname}{2}
+      \strng{namehash}{0448d009825e0bfac7316a655abf5740}
+      \strng{fullhash}{0448d009825e0bfac7316a655abf5740}
+      \strng{bibnamehash}{0448d009825e0bfac7316a655abf5740}
+      \strng{authorbibnamehash}{0448d009825e0bfac7316a655abf5740}
+      \strng{authornamehash}{0448d009825e0bfac7316a655abf5740}
+      \strng{authorfullhash}{0448d009825e0bfac7316a655abf5740}
+      \field{extraname}{1}
       \field{sortinit}{5}
       \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
       \field{labelnamesource}{author}
@@ -918,19 +914,17 @@
     \endentry
     \entry{1710.11412}{article}{}
       \name{author}{1}{}{%
-        {{hash=a3364242a05dc5a80a93fa55804031af}{%
-           family={Collaboration},
-           familyi={C\bibinitperiod},
-           given={ATLAS},
-           giveni={A\bibinitperiod}}}%
+        {{hash=ebfe6052e5f504e4a3579c49c44afe41}{%
+           family={{ATLAS Collaboration}},
+           familyi={A\bibinitperiod}}}%
       }
-      \strng{namehash}{a3364242a05dc5a80a93fa55804031af}
-      \strng{fullhash}{a3364242a05dc5a80a93fa55804031af}
-      \strng{bibnamehash}{a3364242a05dc5a80a93fa55804031af}
-      \strng{authorbibnamehash}{a3364242a05dc5a80a93fa55804031af}
-      \strng{authornamehash}{a3364242a05dc5a80a93fa55804031af}
-      \strng{authorfullhash}{a3364242a05dc5a80a93fa55804031af}
-      \field{extraname}{3}
+      \strng{namehash}{ebfe6052e5f504e4a3579c49c44afe41}
+      \strng{fullhash}{ebfe6052e5f504e4a3579c49c44afe41}
+      \strng{bibnamehash}{ebfe6052e5f504e4a3579c49c44afe41}
+      \strng{authorbibnamehash}{ebfe6052e5f504e4a3579c49c44afe41}
+      \strng{authornamehash}{ebfe6052e5f504e4a3579c49c44afe41}
+      \strng{authorfullhash}{ebfe6052e5f504e4a3579c49c44afe41}
+      \field{extraname}{2}
       \field{sortinit}{6}
       \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
       \field{labelnamesource}{author}
@@ -947,19 +941,17 @@
     \endentry
     \entry{1711.11520}{article}{}
       \name{author}{1}{}{%
-        {{hash=a3364242a05dc5a80a93fa55804031af}{%
-           family={Collaboration},
-           familyi={C\bibinitperiod},
-           given={ATLAS},
-           giveni={A\bibinitperiod}}}%
+        {{hash=ebfe6052e5f504e4a3579c49c44afe41}{%
+           family={{ATLAS Collaboration}},
+           familyi={A\bibinitperiod}}}%
       }
-      \strng{namehash}{a3364242a05dc5a80a93fa55804031af}
-      \strng{fullhash}{a3364242a05dc5a80a93fa55804031af}
-      \strng{bibnamehash}{a3364242a05dc5a80a93fa55804031af}
-      \strng{authorbibnamehash}{a3364242a05dc5a80a93fa55804031af}
-      \strng{authornamehash}{a3364242a05dc5a80a93fa55804031af}
-      \strng{authorfullhash}{a3364242a05dc5a80a93fa55804031af}
-      \field{extraname}{4}
+      \strng{namehash}{ebfe6052e5f504e4a3579c49c44afe41}
+      \strng{fullhash}{ebfe6052e5f504e4a3579c49c44afe41}
+      \strng{bibnamehash}{ebfe6052e5f504e4a3579c49c44afe41}
+      \strng{authorbibnamehash}{ebfe6052e5f504e4a3579c49c44afe41}
+      \strng{authornamehash}{ebfe6052e5f504e4a3579c49c44afe41}
+      \strng{authorfullhash}{ebfe6052e5f504e4a3579c49c44afe41}
+      \field{extraname}{3}
       \field{sortinit}{6}
       \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
       \field{labelnamesource}{author}
@@ -976,19 +968,17 @@
     \endentry
     \entry{1801.08427}{article}{}
       \name{author}{1}{}{%
-        {{hash=e742ba4e105e5341464c3528b118ff41}{%
-           family={Collaboration},
-           familyi={C\bibinitperiod},
-           given={CMS},
-           giveni={C\bibinitperiod}}}%
+        {{hash=0448d009825e0bfac7316a655abf5740}{%
+           family={{CMS Collaboration}},
+           familyi={C\bibinitperiod}}}%
       }
-      \strng{namehash}{e742ba4e105e5341464c3528b118ff41}
-      \strng{fullhash}{e742ba4e105e5341464c3528b118ff41}
-      \strng{bibnamehash}{e742ba4e105e5341464c3528b118ff41}
-      \strng{authorbibnamehash}{e742ba4e105e5341464c3528b118ff41}
-      \strng{authornamehash}{e742ba4e105e5341464c3528b118ff41}
-      \strng{authorfullhash}{e742ba4e105e5341464c3528b118ff41}
-      \field{extraname}{5}
+      \strng{namehash}{0448d009825e0bfac7316a655abf5740}
+      \strng{fullhash}{0448d009825e0bfac7316a655abf5740}
+      \strng{bibnamehash}{0448d009825e0bfac7316a655abf5740}
+      \strng{authorbibnamehash}{0448d009825e0bfac7316a655abf5740}
+      \strng{authornamehash}{0448d009825e0bfac7316a655abf5740}
+      \strng{authorfullhash}{0448d009825e0bfac7316a655abf5740}
+      \field{extraname}{2}
       \field{sortinit}{6}
       \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
       \field{labelnamesource}{author}
@@ -1005,19 +995,17 @@
     \endentry
     \entry{1706.02581}{article}{}
       \name{author}{1}{}{%
-        {{hash=e742ba4e105e5341464c3528b118ff41}{%
-           family={Collaboration},
-           familyi={C\bibinitperiod},
-           given={CMS},
-           giveni={C\bibinitperiod}}}%
+        {{hash=0448d009825e0bfac7316a655abf5740}{%
+           family={{CMS Collaboration}},
+           familyi={C\bibinitperiod}}}%
       }
-      \strng{namehash}{e742ba4e105e5341464c3528b118ff41}
-      \strng{fullhash}{e742ba4e105e5341464c3528b118ff41}
-      \strng{bibnamehash}{e742ba4e105e5341464c3528b118ff41}
-      \strng{authorbibnamehash}{e742ba4e105e5341464c3528b118ff41}
-      \strng{authornamehash}{e742ba4e105e5341464c3528b118ff41}
-      \strng{authorfullhash}{e742ba4e105e5341464c3528b118ff41}
-      \field{extraname}{6}
+      \strng{namehash}{0448d009825e0bfac7316a655abf5740}
+      \strng{fullhash}{0448d009825e0bfac7316a655abf5740}
+      \strng{bibnamehash}{0448d009825e0bfac7316a655abf5740}
+      \strng{authorbibnamehash}{0448d009825e0bfac7316a655abf5740}
+      \strng{authornamehash}{0448d009825e0bfac7316a655abf5740}
+      \strng{authorfullhash}{0448d009825e0bfac7316a655abf5740}
+      \field{extraname}{3}
       \field{sortinit}{6}
       \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
       \field{labelnamesource}{author}
@@ -1034,19 +1022,17 @@
     \endentry
     \entry{1704.03848}{article}{}
       \name{author}{1}{}{%
-        {{hash=a3364242a05dc5a80a93fa55804031af}{%
-           family={Collaboration},
-           familyi={C\bibinitperiod},
-           given={ATLAS},
-           giveni={A\bibinitperiod}}}%
+        {{hash=ebfe6052e5f504e4a3579c49c44afe41}{%
+           family={{ATLAS Collaboration}},
+           familyi={A\bibinitperiod}}}%
       }
-      \strng{namehash}{a3364242a05dc5a80a93fa55804031af}
-      \strng{fullhash}{a3364242a05dc5a80a93fa55804031af}
-      \strng{bibnamehash}{a3364242a05dc5a80a93fa55804031af}
-      \strng{authorbibnamehash}{a3364242a05dc5a80a93fa55804031af}
-      \strng{authornamehash}{a3364242a05dc5a80a93fa55804031af}
-      \strng{authorfullhash}{a3364242a05dc5a80a93fa55804031af}
-      \field{extraname}{7}
+      \strng{namehash}{ebfe6052e5f504e4a3579c49c44afe41}
+      \strng{fullhash}{ebfe6052e5f504e4a3579c49c44afe41}
+      \strng{bibnamehash}{ebfe6052e5f504e4a3579c49c44afe41}
+      \strng{authorbibnamehash}{ebfe6052e5f504e4a3579c49c44afe41}
+      \strng{authornamehash}{ebfe6052e5f504e4a3579c49c44afe41}
+      \strng{authorfullhash}{ebfe6052e5f504e4a3579c49c44afe41}
+      \field{extraname}{4}
       \field{sortinit}{7}
       \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
       \field{labelnamesource}{author}
@@ -1063,19 +1049,17 @@
     \endentry
     \entry{1708.09624}{article}{}
       \name{author}{1}{}{%
-        {{hash=a3364242a05dc5a80a93fa55804031af}{%
-           family={Collaboration},
-           familyi={C\bibinitperiod},
-           given={ATLAS},
-           giveni={A\bibinitperiod}}}%
+        {{hash=ebfe6052e5f504e4a3579c49c44afe41}{%
+           family={{ATLAS Collaboration}},
+           familyi={A\bibinitperiod}}}%
       }
-      \strng{namehash}{a3364242a05dc5a80a93fa55804031af}
-      \strng{fullhash}{a3364242a05dc5a80a93fa55804031af}
-      \strng{bibnamehash}{a3364242a05dc5a80a93fa55804031af}
-      \strng{authorbibnamehash}{a3364242a05dc5a80a93fa55804031af}
-      \strng{authornamehash}{a3364242a05dc5a80a93fa55804031af}
-      \strng{authorfullhash}{a3364242a05dc5a80a93fa55804031af}
-      \field{extraname}{8}
+      \strng{namehash}{ebfe6052e5f504e4a3579c49c44afe41}
+      \strng{fullhash}{ebfe6052e5f504e4a3579c49c44afe41}
+      \strng{bibnamehash}{ebfe6052e5f504e4a3579c49c44afe41}
+      \strng{authorbibnamehash}{ebfe6052e5f504e4a3579c49c44afe41}
+      \strng{authornamehash}{ebfe6052e5f504e4a3579c49c44afe41}
+      \strng{authorfullhash}{ebfe6052e5f504e4a3579c49c44afe41}
+      \field{extraname}{5}
       \field{sortinit}{7}
       \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
       \field{labelnamesource}{author}
@@ -1092,19 +1076,17 @@
     \endentry
     \entry{1711.00431}{article}{}
       \name{author}{1}{}{%
-        {{hash=e742ba4e105e5341464c3528b118ff41}{%
-           family={Collaboration},
-           familyi={C\bibinitperiod},
-           given={CMS},
-           giveni={C\bibinitperiod}}}%
+        {{hash=0448d009825e0bfac7316a655abf5740}{%
+           family={{CMS Collaboration}},
+           familyi={C\bibinitperiod}}}%
       }
-      \strng{namehash}{e742ba4e105e5341464c3528b118ff41}
-      \strng{fullhash}{e742ba4e105e5341464c3528b118ff41}
-      \strng{bibnamehash}{e742ba4e105e5341464c3528b118ff41}
-      \strng{authorbibnamehash}{e742ba4e105e5341464c3528b118ff41}
-      \strng{authornamehash}{e742ba4e105e5341464c3528b118ff41}
-      \strng{authorfullhash}{e742ba4e105e5341464c3528b118ff41}
-      \field{extraname}{9}
+      \strng{namehash}{0448d009825e0bfac7316a655abf5740}
+      \strng{fullhash}{0448d009825e0bfac7316a655abf5740}
+      \strng{bibnamehash}{0448d009825e0bfac7316a655abf5740}
+      \strng{authorbibnamehash}{0448d009825e0bfac7316a655abf5740}
+      \strng{authornamehash}{0448d009825e0bfac7316a655abf5740}
+      \strng{authorfullhash}{0448d009825e0bfac7316a655abf5740}
+      \field{extraname}{4}
       \field{sortinit}{7}
       \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
       \field{labelnamesource}{author}
@@ -1121,19 +1103,17 @@
     \endentry
     \entry{1706.03794}{article}{}
       \name{author}{1}{}{%
-        {{hash=e742ba4e105e5341464c3528b118ff41}{%
-           family={Collaboration},
-           familyi={C\bibinitperiod},
-           given={CMS},
-           giveni={C\bibinitperiod}}}%
+        {{hash=0448d009825e0bfac7316a655abf5740}{%
+           family={{CMS Collaboration}},
+           familyi={C\bibinitperiod}}}%
       }
-      \strng{namehash}{e742ba4e105e5341464c3528b118ff41}
-      \strng{fullhash}{e742ba4e105e5341464c3528b118ff41}
-      \strng{bibnamehash}{e742ba4e105e5341464c3528b118ff41}
-      \strng{authorbibnamehash}{e742ba4e105e5341464c3528b118ff41}
-      \strng{authornamehash}{e742ba4e105e5341464c3528b118ff41}
-      \strng{authorfullhash}{e742ba4e105e5341464c3528b118ff41}
-      \field{extraname}{10}
+      \strng{namehash}{0448d009825e0bfac7316a655abf5740}
+      \strng{fullhash}{0448d009825e0bfac7316a655abf5740}
+      \strng{bibnamehash}{0448d009825e0bfac7316a655abf5740}
+      \strng{authorbibnamehash}{0448d009825e0bfac7316a655abf5740}
+      \strng{authornamehash}{0448d009825e0bfac7316a655abf5740}
+      \strng{authorfullhash}{0448d009825e0bfac7316a655abf5740}
+      \field{extraname}{5}
       \field{sortinit}{7}
       \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
       \field{labelnamesource}{author}
@@ -1150,19 +1130,17 @@
     \endentry
     \entry{1701.02042}{article}{}
       \name{author}{1}{}{%
-        {{hash=e742ba4e105e5341464c3528b118ff41}{%
-           family={Collaboration},
-           familyi={C\bibinitperiod},
-           given={CMS},
-           giveni={C\bibinitperiod}}}%
+        {{hash=0448d009825e0bfac7316a655abf5740}{%
+           family={{CMS Collaboration}},
+           familyi={C\bibinitperiod}}}%
       }
-      \strng{namehash}{e742ba4e105e5341464c3528b118ff41}
-      \strng{fullhash}{e742ba4e105e5341464c3528b118ff41}
-      \strng{bibnamehash}{e742ba4e105e5341464c3528b118ff41}
-      \strng{authorbibnamehash}{e742ba4e105e5341464c3528b118ff41}
-      \strng{authornamehash}{e742ba4e105e5341464c3528b118ff41}
-      \strng{authorfullhash}{e742ba4e105e5341464c3528b118ff41}
-      \field{extraname}{11}
+      \strng{namehash}{0448d009825e0bfac7316a655abf5740}
+      \strng{fullhash}{0448d009825e0bfac7316a655abf5740}
+      \strng{bibnamehash}{0448d009825e0bfac7316a655abf5740}
+      \strng{authorbibnamehash}{0448d009825e0bfac7316a655abf5740}
+      \strng{authornamehash}{0448d009825e0bfac7316a655abf5740}
+      \strng{authorfullhash}{0448d009825e0bfac7316a655abf5740}
+      \field{extraname}{6}
       \field{sortinit}{7}
       \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
       \field{labelnamesource}{author}
@@ -1179,19 +1157,17 @@
     \endentry
     \entry{1706.03948}{article}{}
       \name{author}{1}{}{%
-        {{hash=a3364242a05dc5a80a93fa55804031af}{%
-           family={Collaboration},
-           familyi={C\bibinitperiod},
-           given={ATLAS},
-           giveni={A\bibinitperiod}}}%
+        {{hash=ebfe6052e5f504e4a3579c49c44afe41}{%
+           family={{ATLAS Collaboration}},
+           familyi={A\bibinitperiod}}}%
       }
-      \strng{namehash}{a3364242a05dc5a80a93fa55804031af}
-      \strng{fullhash}{a3364242a05dc5a80a93fa55804031af}
-      \strng{bibnamehash}{a3364242a05dc5a80a93fa55804031af}
-      \strng{authorbibnamehash}{a3364242a05dc5a80a93fa55804031af}
-      \strng{authornamehash}{a3364242a05dc5a80a93fa55804031af}
-      \strng{authorfullhash}{a3364242a05dc5a80a93fa55804031af}
-      \field{extraname}{12}
+      \strng{namehash}{ebfe6052e5f504e4a3579c49c44afe41}
+      \strng{fullhash}{ebfe6052e5f504e4a3579c49c44afe41}
+      \strng{bibnamehash}{ebfe6052e5f504e4a3579c49c44afe41}
+      \strng{authorbibnamehash}{ebfe6052e5f504e4a3579c49c44afe41}
+      \strng{authornamehash}{ebfe6052e5f504e4a3579c49c44afe41}
+      \strng{authorfullhash}{ebfe6052e5f504e4a3579c49c44afe41}
+      \field{extraname}{6}
       \field{sortinit}{8}
       \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
       \field{labelnamesource}{author}
@@ -1208,19 +1184,17 @@
     \endentry
     \entry{1707.01302}{article}{}
       \name{author}{1}{}{%
-        {{hash=a3364242a05dc5a80a93fa55804031af}{%
-           family={Collaboration},
-           familyi={C\bibinitperiod},
-           given={ATLAS},
-           giveni={A\bibinitperiod}}}%
+        {{hash=ebfe6052e5f504e4a3579c49c44afe41}{%
+           family={{ATLAS Collaboration}},
+           familyi={A\bibinitperiod}}}%
       }
-      \strng{namehash}{a3364242a05dc5a80a93fa55804031af}
-      \strng{fullhash}{a3364242a05dc5a80a93fa55804031af}
-      \strng{bibnamehash}{a3364242a05dc5a80a93fa55804031af}
-      \strng{authorbibnamehash}{a3364242a05dc5a80a93fa55804031af}
-      \strng{authornamehash}{a3364242a05dc5a80a93fa55804031af}
-      \strng{authorfullhash}{a3364242a05dc5a80a93fa55804031af}
-      \field{extraname}{13}
+      \strng{namehash}{ebfe6052e5f504e4a3579c49c44afe41}
+      \strng{fullhash}{ebfe6052e5f504e4a3579c49c44afe41}
+      \strng{bibnamehash}{ebfe6052e5f504e4a3579c49c44afe41}
+      \strng{authorbibnamehash}{ebfe6052e5f504e4a3579c49c44afe41}
+      \strng{authornamehash}{ebfe6052e5f504e4a3579c49c44afe41}
+      \strng{authorfullhash}{ebfe6052e5f504e4a3579c49c44afe41}
+      \field{extraname}{7}
       \field{sortinit}{8}
       \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
       \field{labelnamesource}{author}
@@ -1237,19 +1211,17 @@
     \endentry
     \entry{1806.04771}{article}{}
       \name{author}{1}{}{%
-        {{hash=e742ba4e105e5341464c3528b118ff41}{%
-           family={Collaboration},
-           familyi={C\bibinitperiod},
-           given={CMS},
-           giveni={C\bibinitperiod}}}%
+        {{hash=0448d009825e0bfac7316a655abf5740}{%
+           family={{CMS Collaboration}},
+           familyi={C\bibinitperiod}}}%
       }
-      \strng{namehash}{e742ba4e105e5341464c3528b118ff41}
-      \strng{fullhash}{e742ba4e105e5341464c3528b118ff41}
-      \strng{bibnamehash}{e742ba4e105e5341464c3528b118ff41}
-      \strng{authorbibnamehash}{e742ba4e105e5341464c3528b118ff41}
-      \strng{authornamehash}{e742ba4e105e5341464c3528b118ff41}
-      \strng{authorfullhash}{e742ba4e105e5341464c3528b118ff41}
-      \field{extraname}{14}
+      \strng{namehash}{0448d009825e0bfac7316a655abf5740}
+      \strng{fullhash}{0448d009825e0bfac7316a655abf5740}
+      \strng{bibnamehash}{0448d009825e0bfac7316a655abf5740}
+      \strng{authorbibnamehash}{0448d009825e0bfac7316a655abf5740}
+      \strng{authornamehash}{0448d009825e0bfac7316a655abf5740}
+      \strng{authorfullhash}{0448d009825e0bfac7316a655abf5740}
+      \field{extraname}{7}
       \field{sortinit}{8}
       \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
       \field{labelnamesource}{author}
@@ -1266,19 +1238,17 @@
     \endentry
     \entry{1703.05236}{article}{}
       \name{author}{1}{}{%
-        {{hash=e742ba4e105e5341464c3528b118ff41}{%
-           family={Collaboration},
-           familyi={C\bibinitperiod},
-           given={CMS},
-           giveni={C\bibinitperiod}}}%
+        {{hash=0448d009825e0bfac7316a655abf5740}{%
+           family={{CMS Collaboration}},
+           familyi={C\bibinitperiod}}}%
       }
-      \strng{namehash}{e742ba4e105e5341464c3528b118ff41}
-      \strng{fullhash}{e742ba4e105e5341464c3528b118ff41}
-      \strng{bibnamehash}{e742ba4e105e5341464c3528b118ff41}
-      \strng{authorbibnamehash}{e742ba4e105e5341464c3528b118ff41}
-      \strng{authornamehash}{e742ba4e105e5341464c3528b118ff41}
-      \strng{authorfullhash}{e742ba4e105e5341464c3528b118ff41}
-      \field{extraname}{15}
+      \strng{namehash}{0448d009825e0bfac7316a655abf5740}
+      \strng{fullhash}{0448d009825e0bfac7316a655abf5740}
+      \strng{bibnamehash}{0448d009825e0bfac7316a655abf5740}
+      \strng{authorbibnamehash}{0448d009825e0bfac7316a655abf5740}
+      \strng{authornamehash}{0448d009825e0bfac7316a655abf5740}
+      \strng{authorfullhash}{0448d009825e0bfac7316a655abf5740}
+      \field{extraname}{8}
       \field{sortinit}{8}
       \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
       \field{labelnamesource}{author}
@@ -1295,11 +1265,9 @@
     \endentry
     \entry{1748-0221-3-08-S08003}{article}{}
       \name{author}{2927}{}{%
-        {{hash=64b801af020d22f00f8c63d5f10dec61}{%
-           family={Collaboration},
-           familyi={C\bibinitperiod},
-           given={The\bibnamedelima ATLAS},
-           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=473b97723dddc88f9eebf36be609fdb7}{%
+           family={{The ATLAS Collaboration}},
+           familyi={T\bibinitperiod}}}%
         {{hash=50f20d3c6dfbe5459d0f39bcb67740ec}{%
            family={Aad},
            familyi={A\bibinitperiod},
@@ -15977,12 +15945,12 @@
            given={V},
            giveni={V\bibinitperiod}}}%
       }
-      \strng{namehash}{9c6501d5b7aeaf4e5980c396d1e1d9d7}
-      \strng{fullhash}{0147711303a4972b3285811d3530cd4a}
-      \strng{bibnamehash}{9c6501d5b7aeaf4e5980c396d1e1d9d7}
-      \strng{authorbibnamehash}{9c6501d5b7aeaf4e5980c396d1e1d9d7}
-      \strng{authornamehash}{9c6501d5b7aeaf4e5980c396d1e1d9d7}
-      \strng{authorfullhash}{0147711303a4972b3285811d3530cd4a}
+      \strng{namehash}{c7a71b8eab46db34f8e4cf41bdad71b1}
+      \strng{fullhash}{982334fff486023163e3f3ebe0547254}
+      \strng{bibnamehash}{c7a71b8eab46db34f8e4cf41bdad71b1}
+      \strng{authorbibnamehash}{c7a71b8eab46db34f8e4cf41bdad71b1}
+      \strng{authornamehash}{c7a71b8eab46db34f8e4cf41bdad71b1}
+      \strng{authorfullhash}{982334fff486023163e3f3ebe0547254}
       \field{sortinit}{1}
       \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
