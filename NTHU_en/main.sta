@@ -11,19 +11,25 @@
 \subpreamble{acknowledgements.tex}
 
 \endsubpreamble
-\subpreamble{chapter_introduction.tex}
+\subpreamble{introduction.tex}
 
 \endsubpreamble
-\subpreamble{chapter_method.tex}
+\subpreamble{ATLAS.tex}
 
 \endsubpreamble
-\subpreamble{chapter_result.tex}
+\subpreamble{object_selection.tex}
 
 \endsubpreamble
-\subpreamble{chapter_conclusion.tex}
+\subpreamble{event_selection.tex}
 
 \endsubpreamble
-\subpreamble{chapter_template_demo.tex}
+\subpreamble{background_estimation.tex}
+
+\endsubpreamble
+\subpreamble{result.tex}
+
+\endsubpreamble
+\subpreamble{conclusion.tex}
 
 \endsubpreamble
 \subpreamble{bibliography.tex}

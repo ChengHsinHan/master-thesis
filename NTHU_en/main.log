@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6930 64-bit) (preloaded format=xelatex 2019.1.9)  10 JAN 2019 15:14
+This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6930 64-bit) (preloaded format=xelatex 2019.1.9)  11 JAN 2019 17:02
 entering extended mode
 **./main.tex
 (main.tex
@@ -2050,7 +2050,7 @@ File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
- [10] (chapter_introduction.tex
+ [10] (introduction.tex
 Chapter 1.
 File: ./figures/DM_search.png Graphic file (type bmp)
 <./figures/DM_search.png>
@@ -2064,7 +2064,7 @@ File: ./figures/zp2HDM.png Graphic file (type bmp)
 <./figures/zp2HDM.png>
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
- [2]) (chapter_method.tex
+ [2]) (ATLAS.tex
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
  [3]
@@ -2090,7 +2090,7 @@ File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
 
-[7]) (chapter_result.tex
+[7]) (object_selection.tex
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
  [8]
@@ -2125,7 +2125,7 @@ File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
 
-[14]) (chapter_conclusion.tex
+[14]) (event_selection.tex
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
  [15]
@@ -2157,7 +2157,7 @@ Overfull \hbox (77.61299pt too wide) in paragraph at lines 51--64
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) (chapter_template_demo.tex
+) (background_estimation.tex
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
  [20]
@@ -2222,11 +2222,11 @@ File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
  [28
 
-]
+])
+(result.tex
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
-
-[29]
+ [29]
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
  [30
@@ -2253,6 +2253,7 @@ File: ./figures/exclusion.png Graphic file (type bmp)
 <./figures/exclusion.png>
 File: ./figures/signal_strength.png Graphic file (type bmp)
 <./figures/signal_strength.png>
+) (conclusion.tex
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
  [33]
@@ -2283,10 +2284,10 @@ File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
  [38]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 88.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 88.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 90.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 90.
  (main.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 88.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 90.
 
 
  *File List*
@@ -2481,12 +2482,12 @@ acknowledgements.tex
 ./figures/nthu-logo.pdf
 ./figures/nthu-logo.pdf
 ./figures/nthu-logo.pdf
-chapter_introduction.tex
+introduction.tex
 ./figures/DM_search.png
 ./figures/nthu-logo.pdf
 ./figures/zp2HDM.png
 ./figures/nthu-logo.pdf
-chapter_method.tex
+   ATLAS.tex
 ./figures/nthu-logo.pdf
 ./figures/nthu-logo.pdf
 ./figures/nthu-logo.pdf
@@ -2494,7 +2495,7 @@ chapter_method.tex
 ./figures/Side_view.png
 ./figures/nthu-logo.pdf
 ./figures/nthu-logo.pdf
-chapter_result.tex
+object_selection.tex
 ./figures/nthu-logo.pdf
 ./figures/nthu-logo.pdf
 ./figures/nthu-logo.pdf
@@ -2502,7 +2503,7 @@ chapter_result.tex
 ./figures/nthu-logo.pdf
 ./figures/nthu-logo.pdf
 ./figures/nthu-logo.pdf
-chapter_conclusion.tex
+event_selection.tex
 ./figures/nthu-logo.pdf
 ./figures/nthu-logo.pdf
 ./figures/nthu-logo.pdf
@@ -2511,7 +2512,7 @@ chapter_conclusion.tex
 ./figures/Wjets.png
 ./figures/Zjets.png
 ./figures/nthu-logo.pdf
-chapter_template_demo.tex
+background_estimation.tex
 ./figures/nthu-logo.pdf
 ./figures/nthu-logo.pdf
 ./figures/nthu-logo.pdf
@@ -2528,6 +2529,7 @@ chapter_template_demo.tex
 ./figures/nthu-logo.pdf
 ./figures/manybins.pdf
 ./figures/nthu-logo.pdf
+  result.tex
 ./figures/nthu-logo.pdf
 ./figures/nthu-logo.pdf
 ./figures/nthu-logo.pdf
@@ -2539,6 +2541,7 @@ chapter_template_demo.tex
 ./figures/nthu-logo.pdf
 ./figures/exclusion.png
 ./figures/signal_strength.png
+conclusion.tex
 ./figures/nthu-logo.pdf
 ./figures/nthu-logo.pdf
 ./figures/nthu-logo.pdf
@@ -2548,15 +2551,9 @@ bibliography.tex
 ./figures/nthu-logo.pdf
  ***********
 
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 88.
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: DAA57541300052A30716CD9F63C8D3B3
-(rerunfilecheck)             After:  2661D76D252C64461033939756CBD2A0.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 90.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 2661D76D252C64461033939756CBD2A0.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.72pt have occurred.
@@ -2566,12 +2563,12 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 50203 strings out of 427748
- 1003578 string characters out of 3146446
- 2466531 words of memory out of 3000000
- 53524 multiletter control sequences out of 15000+200000
- 540561 words of font info for 124 fonts, out of 3000000 for 9000
+ 50213 strings out of 427748
+ 1003602 string characters out of 3146446
+ 2466560 words of memory out of 3000000
+ 53530 multiletter control sequences out of 15000+200000
+ 540553 words of font info for 123 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
- 68i,17n,97p,1574b,5227s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 68i,17n,97p,1571b,5227s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 Output written on main.pdf (48 pages).

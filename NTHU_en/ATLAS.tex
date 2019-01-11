@@ -1,0 +1,42 @@
+\documentclass[class=NCU_thesis, crop=false]{standalone}
+\begin{document}
+
+\chapter{The ATLAS detector}\label{ATLAS}
+\section{Coordinates}
+	The ATLAS experiment \cite{1748-0221-3-08-S08003} is one of the seven detector in LHC at CERN (European Organization for Nuclear Research). Its cylindrical symmetry and end caps covers nearly $4\pi$ in solid angle.
+	
+	A coordinate system is used to describe every recorded signals nearby. The origin is set at the center of the detector, or the interaction point (IP). The x-axis points toward the center of the LHC ring; the y-axis points vertically upward; the z-axis points along one of the beam pipe direction such that a right-handed coordinate sysetem is created.
+	
+	A modified version of cylindrical coordinate is more commonly used in the experiment. The pseudorapidity $\eta \equiv -\ln\tan(\theta / 2)$, in which $\theta$ is the polar angle in cylindrical coordinate, is used to decribe the angle between the z-axis and the direction of interest. $(r, \phi)$ is the same system to describe the tranverse plane, with $\phi$ being the azimuthal angle. In addition, the cone size variable, which is used in object selection and reconstruction, is defined as $\Delta R \equiv \sqrt{(\Delta \phi)^2 + (\Delta \eta)^2}$.
+
+\section{Components of ATLAS}
+	Depending on its function, the components are categorized into four parts - inner detector, calorimeters, muon spectrometer, and the magnetic system. Apart from these, there are three levels of triggers which are designed to reduce the amount of data and also keep the signals of interest. Figure \ref{fig:ATLAS} shows the schematic positions and \ref{fig:side view} shows the side view of each components of ATLAS. The solenoidal magnets surround the inner detector while the toroidal magnets affects the signals in the muon spectrometer. These two magnets form the magnetic system. The others consist of smaller layers or components which is described in the following.
+	
+	\fig[0.8][fig:ATLAS][!hbt]{ATLAS.png}[Schematic plot of the ATLAS detector as well as the positions of its components.][short caption]
+	
+	\fig[0.8][fig:side view][!hbt]{Side_view.png}[Schematic plot of the side view of the ATLAS detector.][short caption]
+	
+	\subsection{Inner Detector}
+		The inner detector begins few centimeters from the IP. Its main function is to track the trace of charged particles by their interations with the materials. A 2T magnetic field, which is generated from the solenoidal magnets surrounding the whole inner detector, causes the charged ones to bend. Based on the directions and the curvatures, one can determine their charge and momentum preliminarily. The inner detector comprises three parts - the pixel detector, the semi-conductor tracker (SCT), and the transition rediation tracker (TRT).
+		
+		The pixel detector is located at the innermost part of the inner detector. It contains four layers of modules, which is made up silicon, in the direction perpendicular to the beam. It covers pseudorapidity range $\lvert \eta \rvert < 2.5$ and its proximity to the IP is meant to measure extremely precise trace of the charged particles. Three disks, which are made up of similar material, are at each end cap of the detector.
+		
+		The semi-conductor tracker has a similar concept and function to the pixel detector. It lies in the middle part of the inner detector. The SCT is in a long and narrow strip-shape rather than small pixels and covers the perpendicular directions to the beam instead of nearly full coverage. The SCT overlays a larger area than the pixel detector does. Therefore, it has more sampled points and is of great importance on tracking the transverse directions with roughly the same accuracy compared to the pixel detector.
+		
+		TRT is the outermost component. It includes straw tube trackers and transition radiation detectors. Its precision in tracking is not as high and its coverage in pseudorapidity, about $\rvert \eta \lvert < 2.0$, is not as wide as those of the other two components. However, TRT possesses transition radiation detection capability, which is useful for identifying charged particles. Lighter particles tend to have higher speed, which generates greater transition radiation. Thus, electrons and positrons, the lightest charged particles, would leave strong signals in TRT.
+	
+	\subsection{Calorimeters}
+		Outside the solenoidal magnet, which envelops the inner detector, are the calorimeters. By absorbing the particles, the calorimeters measure the energies of them. Two layers of components compose the calorimeter systems, the inner electromagnetic (EM) calorimeter and the outer hadronic calorimeter.
+		
+		As its name suggests, the EM calorimeter absorbs energies from particles that interact electromagnetically, including photons and charged particles. High-granularity lead/liquid argon(LAr) EM calorimeter covers a range of $\lvert \eta \rvert < 3.2$, which includes the barrel and end cap. In addition, a LAr persampler which is meant to correct the energy loss in materials of the calorimeters covers $\lvert \eta \rvert < 1.8$. For the forward region, which has the range $3.1 < \lvert \eta \rvert < 4.9$, a LAr EM calorimeter with copper is also deployed.
+		
+		Hadronic calorimeter is less precise in both energy magnitude and localization than EM calorimeter. It absorbs energies from the particles that interact via strong force. Hadrons and $\tau$ leptons, which are identified as jets, are the targeted particles of hadronic calorimeter. Steel/scintillator-tile covering $\lvert \eta \rvert < 1.7$, two copper/LAr end cap calorimeters overlaying $1.5 < \lvert \eta \rvert < 3.2$, and a forward-regional ($3.1 < \lvert \eta \rvert < 4.9$) tungsten absorbers constitute the hadronic calorimeter.
+	
+	\subsection{Muon Spectrometer}
+		Muon spectrometer, which is meant to provide more precise measurement of muon momentum and tracks, surrounds the calorimeters. Due to the fact that almost only muons pass reach it, muon spectrometer also has a function of identifying the muons. A magnetic field, provided by three toroidal magnets and thus is not uniform, creates a curve in muon tracks. These tracks can be made use of measuring the momentum. Detectors with triggers provide the identification and momentum measurements of the muons within the range $\lvert \eta \rvert < 2.4$; over a thousand precision tracking chambers covering $\lvert \eta \rvert < 2.7$ serve the muon spatial measurements.
+		
+	\subsection{Trigger System}
+		A trigger is a set of device which sets thresholds on some physical quantities such as momenta and positions. If the threshold of one event is met, one keeps it; otherwise one abandons it. The ATLAS triggers consist of three levels. The first level is hardware based while the other two are software based. From roughly 1 billion events per second, these three levels of triggers combined select about few hundreds interesting. Namely, the interaction rate is reduced from 1 GHz to few hundreds Hz.
+		
+
+\end{document}
