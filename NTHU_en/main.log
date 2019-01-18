@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6930 64-bit) (preloaded format=xelatex 2019.1.9)  11 JAN 2019 17:02
+This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6930 64-bit) (preloaded format=xelatex 2019.1.9)  18 JAN 2019 12:53
 entering extended mode
 **./main.tex
 (main.tex
@@ -2186,17 +2186,14 @@ File: ./figures/fixed_posW.jpg Graphic file (type bmp)
 <./figures/fixed_posW.jpg>
 File: ./figures/unfixed_negW.pdf Graphic file (type pdf)
 <use ./figures/unfixed_negW.pdf>
+File: ./figures/nthu-logo.pdf Graphic file (type pdf)
+<use ./figures/nthu-logo.pdf>
+ [25]
 File: ./figures/fixed_negW.pdf Graphic file (type pdf)
 <use ./figures/fixed_negW.pdf>
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
- [25]
-File: ./figures/nthu-logo.pdf Graphic file (type pdf)
-<use ./figures/nthu-logo.pdf>
  [26]
-File: ./figures/nthu-logo.pdf Graphic file (type pdf)
-<use ./figures/nthu-logo.pdf>
- [27]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 41.
@@ -2213,17 +2210,14 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 41.
 
-File: ./figures/manybins.pdf Graphic file (type pdf)
-<use ./figures/manybins.pdf>
-
-Underfull \vbox (badness 1024) has occurred while \output is active []
-
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
- [28
-
-])
-(result.tex
+[27]
+File: ./figures/manybins.pdf Graphic file (type pdf)
+<use ./figures/manybins.pdf>
+File: ./figures/nthu-logo.pdf Graphic file (type pdf)
+<use ./figures/nthu-logo.pdf>
+ [28]) (result.tex
 File: ./figures/nthu-logo.pdf Graphic file (type pdf)
 <use ./figures/nthu-logo.pdf>
  [29]
@@ -2523,8 +2517,8 @@ background_estimation.tex
 ./figures/unfixed_posW.jpg
 ./figures/fixed_posW.jpg
 ./figures/unfixed_negW.pdf
-./figures/fixed_negW.pdf
 ./figures/nthu-logo.pdf
+./figures/fixed_negW.pdf
 ./figures/nthu-logo.pdf
 ./figures/nthu-logo.pdf
 ./figures/manybins.pdf
@@ -2563,12 +2557,12 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 50213 strings out of 427748
- 1003602 string characters out of 3146446
- 2466560 words of memory out of 3000000
- 53530 multiletter control sequences out of 15000+200000
+ 50217 strings out of 427748
+ 1003658 string characters out of 3146446
+ 2466729 words of memory out of 3000000
+ 53534 multiletter control sequences out of 15000+200000
  540553 words of font info for 123 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
- 68i,17n,97p,1571b,5227s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 68i,17n,97p,1572b,5227s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 Output written on main.pdf (48 pages).
